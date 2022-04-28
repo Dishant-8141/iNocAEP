@@ -16,7 +16,7 @@
             </li>
             <li class="nav-item">
               <!-- <a class="nav-link" href="dashboard/dashboard.html"> -->
-              <a class="nav-link" href="/iNocAEP/index.php">
+              <a class="nav-link" href="index.php">
                 <span class="menu-title">Dashboard</span>
                 <i class="icon-speedometer menu-icon"></i>
               </a>
