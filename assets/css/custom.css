@@ -1,0 +1,45 @@
+.navbar {
+    background: #25313e;
+}
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link i {
+    color: #fff;
+}
+
+.navbar .navbar-menu-wrapper .page-name {
+    color: #fff;
+}
+
+body, .sidebar {
+    background: #2e3e4e;
+}
+
+.card .card-body {
+    padding-bottom: 0;
+}
+
+.architecture > img {
+    width: 100%;
+}
+
+.highcharts-credits {
+    display: none;
+}
+
+.fsize {
+    font-size: 25px;
+    color: #65bd77;
+}
+
+.select-class, .select-class > option {
+    font-size: 14px;
+    color: #65bd77;
+}
+
+.select-b {
+    border-color: #2e3e4e;
+}
+
+select, option {
+    cursor: pointer
+}

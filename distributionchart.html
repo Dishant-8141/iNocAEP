@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>GAAC</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="node_modules/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="node_modules/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="node_modules/flag-icon-css/css/flag-icon.min.css">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- endinject -->
+  <link rel="stylesheet" href="css/custom.css">
+
+  <link rel="stylesheet" href="ism/css/my-slider.css"/>
+  <script src="ism/js/ism-2.2.min.js"></script>
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper">
+        <a class="navbar-brand brand-logo" href="index.html">
+          <img src="images/inside-logo.png" alt="logo">
+        </a>
+        <a class="navbar-brand brand-logo-mini" href="index.html">
+          <img src="images/inside-logo.png" alt="logo">
+        </a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <ul class="navbar-nav ml-lg-auto">
+
+          <li class="nav-item dropdown mail-dropdown">
+            <a class="nav-link count-indicator" id="MailDropdown" href="#" data-toggle="dropdown">
+              <i class="icon-envelope-letter icons"></i>
+              <!-- <span class="count bg-danger"></span> -->
+            </a>
+            <div class="dropdown-menu navbar-dropdown mail-notification dropdownAnimation" aria-labelledby="MailDropdown">
+              <a class="dropdown-item" href="#">
+                <div class="sender-img">
+                  <img src="images/faces/face6.jpg" alt="">
+                  <span class="badge badge-success">&nbsp;</span>
+                </div>
+                <div class="sender">
+                  <p class="Sende-name">John Doe</p>
+                  <p class="Sender-message">Hey, We have a meeting planned at the end of the day.</p>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="sender-img">
+                  <img src="images/faces/face2.jpg" alt="">
+                  <span class="badge badge-success">&nbsp;</span>
+                </div>
+                <div class="sender">
+                  <p class="Sende-name">Leanne Jones</p>
+                  <p class="Sender-message">Can we schedule a call this afternoon?</p>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="sender-img">
+                  <img src="images/faces/face3.jpg" alt="">
+                  <span class="badge badge-primary">&nbsp;</span>
+                </div>
+                <div class="sender">
+                  <p class="Sende-name">Stella</p>
+                  <p class="Sender-message">Great presentation the other day. Keep up the good work!</p>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="sender-img">
+                  <img src="images/faces/face4.jpg" alt="">
+                  <span class="badge badge-warning">&nbsp;</span>
+                </div>
+                <div class="sender">
+                  <p class="Sende-name">James Brown</p>
+                  <p class="Sender-message">Need the updates of the project at the end of the week.</p>
+                </div>
+              </a>
+              <a href="#" class="dropdown-item view-all">View all</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown notification-dropdown">
+            <a class="nav-link count-indicator" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="icon-speech icons"></i>
+              <!-- <span class="count"></span> -->
+            </a>
+            <div class="dropdown-menu navbar-dropdown preview-list notification-drop-down dropdownAnimation" aria-labelledby="notificationDropdown">
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon">
+                    <i class="icon-info mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <p class="preview-subject font-weight-medium">Application Error</p>
+                  <p class="font-weight-light small-text">
+                    Just now
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon">
+                    <i class="icon-speech mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <p class="preview-subject">Settings</p>
+                  <p class="font-weight-light small-text">
+                    Private message
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon">
+                    <i class="icon-envelope mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <p class="preview-subject">New user registration</p>
+                  <p class="font-weight-light small-text">
+                    2 days ago
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item lang-dropdown d-none d-sm-block">
+            <a class="nav-link" href="#">
+              <p class="page-name d-none d-lg-block">Hi, Leanne Jones</p>
+              <!-- <p class="mb-0">English <i class="flag-icon flag-icon-gb"></i></p> -->
+            </a>
+          </li>
+          <li class="nav-item d-none d-sm-block profile-img">
+            <a class="nav-link profile-image" href="#">
+              <img src="images/faces/face4.jpg" alt="profile-img">
+              <span class="online-status online bg-success"></span>
+            </a>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center ml-auto" type="button" data-toggle="offcanvas">
+          <span class="icon-menu icons"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item nav-category">
+              <span class="nav-link">GAAC</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <span class="menu-title">Dashboard</span>
+                <i class="icon-speedometer menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productchart.html">
+                <span class="menu-title">Product Chart</span>
+                <i class="icon-chart menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="distributionchart.html">
+                <span class="menu-title">Distribution Chart</span>
+                <i class="icon-pie-chart menu-icon"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- partial -->
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-lg-12 grid-margin">
+              <div class="card overflow-hidden dashboard-curved-chart">
+                <div class="card-body mx-3">
+                  <div class="card-title col-lg-12 mb-0">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <span class="fsize">Distribution Chart</span>
+                      </div>
+                      <div class="col-lg-3">
+                        <select class="select-b form-control select-class">
+                          <option>Daily</option>
+                          <option>Monthly</option>
+                          <option>Yearly</option>
+                        </select>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <input placeholder="From" class="select-class select-b form-control" type="text" id="from" name="from">
+                          </div>
+                          <div class="col-lg-6">
+                            <input placeholder="To" class="select-class select-b form-control" type="text" id="to" name="to">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          <div class="container-fluid clearfix">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright &copy; 2018 GAAC. All rights reserved.</span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- row-offcanvas ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- endinject -->
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <link rel="stylesheet" href="https://jqueryui.com/jquery-wp-content/themes/jqueryui.com/style.css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+    Highcharts.chart('container', {
+      chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+      },
+      title: {
+        text: 'Distribution Chart'
+      },
+      tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: false
+          },
+          showInLegend: true
+        }
+      },
+      series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: [
+        {
+          color: '#641E16',
+          name: 'PageRank',
+          y: 11.84
+        },
+        {
+          color: '#B9770E',
+          name: 'Snapshots',
+          y: 10.85
+        },
+        {
+          color: '#154360',
+          name: 'Experimental Search',
+          y: 4.67
+        },
+        {
+          color: '#D35400',
+          name: 'Google Books',
+          y: 4.18
+        }
+        ]
+      }]
+    });
+    $( function() {
+      var dateFormat = "mm/dd/yy",
+      from = $( "#from" )
+      .datepicker({
+        defaultDate: "+1w",
+        changeMonth: true,
+        // numberOfMonths: 3
+      })
+      .on( "change", function() {
+        to.datepicker( "option", "minDate", getDate( this ) );
+      }),
+      to = $( "#to" ).datepicker({
+        defaultDate: "+1w",
+        changeMonth: true,
+        // numberOfMonths: 3
+      })
+      .on( "change", function() {
+        from.datepicker( "option", "maxDate", getDate( this ) );
+      });
+
+      function getDate( element ) {
+        var date;
+        try {
+          date = $.datepicker.parseDate( dateFormat, element.value );
+        } catch( error ) {
+          date = null;
+        }
+
+        return date;
+      }
+    } );
+  </script>
+
+</body>
+
+</html>

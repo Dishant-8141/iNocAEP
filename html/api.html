@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<head>
+        <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <title>GAAC</title>
+     <!-- plugins:css -->
+     <link rel="stylesheet" href="../dashboard/dashboard.css">
+     <link rel="stylesheet" href="../charts/chart.css">
+    
+     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
+            
+     
+     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+     <!-- endinject
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+     <!-- inject:css -->
+    
+     <link rel="stylesheet" href="../node_modules/mdi/css/materialdesignicons.min.css">
+     <link rel="stylesheet" href="../node_modules/simple-line-icons/css/simple-line-icons.css">
+     <link rel="stylesheet" href="../node_modules/flag-icon-css/css/flag-icon.min.css">
+     <!-- endinject -->
+     <!-- inject:css -->
+     <link rel="stylesheet" href="../css/style.css">
+     <!-- endinject -->
+    <link rel="stylesheet" href="../css/custom.css">
+    
+    
+    
+     <link rel="stylesheet" href="../ism/css/my-slider.css"/>
+     <style = "text/css">
+     body{
+       font-size: 1.2rem;
+     }
+     
+     </style>
+     <script src="../ism/js/ism-2.2.min.js"></script>
+    
+     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    
+     <script src="../dashboard/dashboard.js"></script>
+     
+    </head>  
+
+<body>
+
+  <div id="wrapper">
+      <div class="container-scroller">
+    <!-- Navigation -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper">
+          <a class="navbar-brand brand-logo" href="index.html">
+            <img src="../images/inside-logo.png" alt="logo">
+          </a>
+          <a class="navbar-brand brand-logo-mini" href="index.html">
+            <img src="../images/inside-logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-center">
+          <ul class="navbar-nav ml-lg-auto">
+            
+          <li class="nav-item dropdown mail-dropdown">
+              <a class="nav-link count-indicator" id="MailDropdown" href="#" data-toggle="dropdown">
+                <i class="icon-envelope-letter icons"></i>
+                <!-- <span class="count bg-danger"></span> -->
+              </a>
+              <div class="dropdown-menu navbar-dropdown mail-notification dropdownAnimation" aria-labelledby="MailDropdown">
+                <a class="dropdown-item" href="#">
+                  <div class="sender-img">
+                    <img src="images/faces/face6.jpg" alt="">
+                    <span class="badge badge-success">&nbsp;</span>
+                  </div>
+                  <div class="sender">
+                    <p class="Sende-name">John Doe</p>
+                    <p class="Sender-message">Hey, We have a meeting planned at the end of the day.</p>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="sender-img">
+                    <img src="images/faces/face2.jpg" alt="">
+                    <span class="badge badge-success">&nbsp;</span>
+                  </div>
+                  <div class="sender">
+                    <p class="Sende-name">Leanne Jones</p>
+                    <p class="Sender-message">Can we schedule a call this afternoon?</p>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="sender-img">
+                    <img src="images/faces/face3.jpg" alt="">
+                    <span class="badge badge-primary">&nbsp;</span>
+                  </div>
+                  <div class="sender">
+                    <p class="Sende-name">Stella</p>
+                    <p class="Sender-message">Great presentation the other day. Keep up the good work!</p>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="sender-img">
+                    <img src="images/faces/face4.jpg" alt="">
+                    <span class="badge badge-warning">&nbsp;</span>
+                  </div>
+                  <div class="sender">
+                    <p class="Sende-name">James Brown</p>
+                    <p class="Sender-message">Need the updates of the project at the end of the week.</p>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item view-all">View all</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown notification-dropdown">
+                <a class="nav-link count-indicator" id="notificationDropdown" href="#" data-toggle="dropdown">
+                  <i class="icon-speech icons"></i>
+                  <!-- <span class="count"></span> -->
+                </a>
+                <div class="dropdown-menu navbar-dropdown preview-list notification-drop-down dropdownAnimation" aria-labelledby="notificationDropdown">
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon">
+                        <i class="icon-info mx-0"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject font-weight-medium">Application Error</p>
+                      <p class="font-weight-light small-text">
+                        Just now
+                      </p>
+                    </div>
+                  </a>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon">
+                        <i class="icon-speech mx-0"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject">Settings</p>
+                      <p class="font-weight-light small-text">
+                        Private message
+                      </p>
+                    </div>
+                  </a>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon">
+                        <i class="icon-envelope mx-0"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject">New user registration</p>
+                      <p class="font-weight-light small-text">
+                        2 days ago
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item lang-dropdown d-none d-sm-block">
+                <a class="nav-link" href="#">
+                  <p class="page-name d-none d-lg-block">Hi, Leanne Jones</p>
+                    <!-- <p class="mb-0">English <i class="flag-icon flag-icon-gb"></i></p> -->
+                </a>
+              </li>
+              <li class="nav-item d-none d-sm-block profile-img">
+                  <a class="nav-link profile-image" href="#">
+                    <img src="../images/faces/face4.jpg" alt="profile-img">
+                    <span class="online-status online bg-success"></span>
+                  </a>
+                </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center ml-auto" type="button" data-toggle="offcanvas">
+              <span class="icon-menu icons"></span>
+            </button>
+        </div>
+
+        </nav>
+
+    <div class="container-fluid page-body-wrapper">
+      <div class="row row-offcanvas row-offcanvas-right">
+    
+ 
+    <div id="page-wrapper">
+ 
+            <div id="sidebarStyle">
+                    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                        <ul class="nav" id="menu-main">
+                          <li class="nav-item nav-category">
+                            <span class="nav-link">GAAC</span>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../dashboard/dashboard.html">
+                              <span class="menu-title">Dashboard</span>
+                              <i class="icon-speedometer menu-icon"></i>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="../charts/gaacArchitecture.html">
+                                <span class="menu-title">GAAC Architecture</span>
+                                <i class="icon-organization menu-icon"></i>
+                              </a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="collapse" data-target="#sub1" id="dropdownLink" class="nav-link">
+                                    <span class="menu-title">Analytics</span>
+                                    <b class="caret pull-right"></b>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../charts/productchart.html">
+                                          <span class="menu-title">Product Chart</span>
+                                          <i class="icon-chart menu-icon"></i>
+                                        </a>
+                                    </li>
+                           
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../charts/distributionChart.html">
+                                          <span class="menu-title">Distribution Chart</span>
+                                          <i class="icon-pie-chart menu-icon"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="collapse" data-target="#sub1" id="dropdownLink" class="nav-link">
+                                    <span class="menu-title">Documentation</span>
+                                    <b class="caret pull-right"></b>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="faq.html">
+                                          <span class="menu-title">FAQ</span>
+                                          <i class="icon-questionmark menu-icon"></i>
+                                        </a>
+                                    </li>
+                           
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="api.html">
+                                          <span class="menu-title">API</span>
+                                          <i class="icon-question menu-icon"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="settings.html">
+                                <span class="menu-title">Settings</span>
+                                <i class="icon-settings menu-icon"></i>
+                              </a>
+                            </li>
+                        </ul>
+                      </nav>
+                </div>
+
+  
+      <div class="container-fluid">
+  
+        <!-- Page Heading -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="page-header">
+                              API 
+                          </h1>
+            <ol class="breadcrumb">
+              <li class="active">
+                <i class="fa fa-dashboard"></i> API
+              </li>
+            </ol>
+          </div>
+        </div>
+        <!-- /.row -->
+        <div>
+            <span class="settingsTitle">API's</span>
+            <br/>
+            <span class="settingsTitle">Azure Custom Vision API</span>
+        <div  class="textStyle">
+            <p id="apiTextStyle">
+            The Azure Custom Vision API is a cognitive service that lets you build, deploy and improve custom image classifiers. An image classifier is an AI service that sorts images into classes (tags) according to certain characteristics.
+            </p>
+            <p id="apiTextStyle">
+              The Custom Vision service uses a machine learning algorithm to classify images. You, the developer, must submit groups of images that feature and lack the classification(s) in question. You specify the correct tags of the images at the time of submission. Then, the algorithm trains to this data and calculates its own accuracy by testing itself on that same data. Once the model is trained, you can test, retrain, and eventually use it to classify new images according to the needs of your app.
+               You can also export the model itself for offline use.
+            </p>    
+            <p id="apiTextStyle">Details related to Azure Custom Vision API <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/home">Azure custonm vision API</a></p>
+        </div>
+        <br />
+        <span class="settingsTitle">Azure Consumption API</span>
+        <div  class="textStyle">
+            <p id="apiTextStyle">
+                    The Azure Consumption APIs give you programmatic access to cost and usage data for your Azure resources. These APIs currently only support Enterprise Enrollments and Web Direct Subscriptions (with a few exceptions). The APIs are continually updated to support other types of Azure subscriptions.
+            </p>  
+            <p id="apiTextStyle">Details related to Azure Consumption API<a href="https://docs.microsoft.com/en-us/azure/billing/billing-consumption-api-overview">Azure consumption API</a></p>
+        </div>
+        </div>
+  
+  
+      </div>
+      <!-- /.container-fluid -->
+      <footer class="footer">
+          <div class="container-fluid clearfix">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright &copy; 2018 GAAC. All rights reserved.</span>
+          </div>
+        </footer>
+    </div>
+
+  </div> 
+</div>  
+
+    <!-- /#page-wrapper -->
+ 
+  </div>
+
+  </div>
+</body>
+<script>
+        $('ul#menu-main .sub-menu').hide();
+        $('ul#menu-main li a').click(function(e) {
+          if ($(this).next('ul.sub-menu').children().length !== 0) {
+              e.preventDefault();
+          }
+          $(this).siblings('.sub-menu').slideToggle('slow');
+        });
+        </script>
+
+</html>
