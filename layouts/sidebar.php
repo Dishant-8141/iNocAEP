@@ -41,13 +41,13 @@
                 </li>
               
                 <li class="nav-item">
-                  <a class="nav-link" href="/iNocAEP/flowServices.php">
+                  <a class="nav-link" href="flowServices.php">
                     <span class="menu-title">Flow Analytics</span>
                     <i class="icon-pie-chart menu-icon"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/iNocAEP/sourceAnalytics.php">
+                  <a class="nav-link" href="sourceAnalytics.php">
                     <span class="menu-title">Source Analytics</span>
                     <i class="icon-pie-chart menu-icon"></i>
                   </a>
