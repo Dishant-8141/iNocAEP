@@ -77,6 +77,8 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function (params) {
+      var url = window.location.href;
+      alert(url)
       google.charts.load('current', {'packages':['corechart']});
 
       $('#filter-chart').on('click', function () {
@@ -96,7 +98,7 @@
       function drawChart(status_type, from_date, to_date) {
 
         var chartData = $.ajax({
-          url: "/iNocAEP/backend/RestAPI.php?type=connection_piechart",
+          url: "/backend/RestAPI.php?type=connection_piechart",
           method: 'POST',
           dataType: "json",
           data: {

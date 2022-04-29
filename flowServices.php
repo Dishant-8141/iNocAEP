@@ -97,7 +97,7 @@
       function drawChart(status_type, from_date, to_date) {
 
         var chartData = $.ajax({
-          url: "/iNocAEP/backend/RestAPI.php?type=flowservice_piechart",
+          url: "/backend/RestAPI.php?type=flowservice_piechart",
           method: 'POST',
           dataType: "json",
           data: {
