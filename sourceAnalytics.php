@@ -78,7 +78,8 @@
 <script type="text/javascript">
     $(document).ready(function (params) {
       var url = window.location.href;
-      alert(url)
+      url = url.slice(0, url.lastIndexOf('/'));
+      
       google.charts.load('current', {'packages':['corechart']});
 
       $('#filter-chart').on('click', function () {
@@ -98,7 +99,7 @@
       function drawChart(status_type, from_date, to_date) {
 
         var chartData = $.ajax({
-          url: "/backend/RestAPI.php?type=connection_piechart",
+          url: url + "/backend/RestAPI.php?type=connection_piechart",
           method: 'POST',
           dataType: "json",
           data: {

@@ -774,6 +774,7 @@ if(!empty($_GET)){
                 $to_date = (isset($_POST['to_date'])) ? date('Y-m-d H:i:s', strtotime($_POST['to_date'])) : null;
 
                 $result_data = file_get_contents("../log_content/connection_content.txt");
+                $result_data = file_get_contents("sourceanalytics.json");
                 // print_r($result_data);exit;
                 if(!isset($result_data)){
                     $error = array(
@@ -791,7 +792,7 @@ if(!empty($_GET)){
                 if(isset($result_data->items)){
                     if (count($result_data->items) > 0) {
                         $items = $result_data->items;
-                        if($status_type == 'state'){
+                        if($status_type == 'state' || $status_type == 'destination'){
                             $state_array = array();
                             $count_state_array = array();
                             $count = 0;
@@ -800,42 +801,85 @@ if(!empty($_GET)){
                                 $seconds = $mil / 1000;
                                 $created_date = date("Y-m-d H:i:s", (int) $seconds);
                                 $created_date = strtotime($created_date);
-                                $check = false;
-                                if(isset($item->state)){
-                                    if ($from_date != null && $to_date != null){
-                                        if ($created_date >= $from_date && $created_date <= $to_date) {
+                                if($status_type == 'state' || $status_type == 'destination'){
+                                    $check = false;
+                                    if(isset($item->state)){
+                                        if ($from_date != null && $to_date != null){
+                                            if ($created_date >= $from_date && $created_date <= $to_date) {
+                                                $check = true;
+                                            }
+
+                                        }else if ($from_date != null || $to_date != null){
+                                            if($from_date != null){
+                                                if ($created_date >= $from_date){
+                                                    $check = true;
+                                                }
+                                            }else{
+                                                if($created_date <= $to_date){
+                                                    $check = true;
+                                                }
+                                            }
+                                            
+                                        }else{
                                             $check = true;
                                         }
-
-                                    }else if ($from_date != null || $to_date != null){
-                                        if($from_date != null){
-                                            if ($created_date >= $from_date){
-                                                $check = true;
+                                    }
+                                    
+                                    if ($check == true) {
+                                        if ($status_type == 'state'){
+                                            if(isset($item->state)){
+                                                if (in_array($item->state, $state_array)){
+                                                    $count_state_array[$item->state]++;
+                                                }else{
+                                                    array_push($state_array, $item->state);
+                                                    $count_state_array[$item->state] = 1;
+                                                }
+                                            }else {
+                                                if (in_array('N/A', $state_array)){
+                                                    $count_state_array['N/A']++;
+                                                }else{
+                                                    array_push($state_array, 'N/A');
+                                                    $count_state_array['N/A'] = 1;
+                                                }
                                             }
-                                        }else{
-                                            if($created_date <= $to_date){
-                                                $check = true;
-                                            }
-                                        }
+                                            $count++;
                                         
-                                    }else{
-                                        $check = true;
+                                        } else if ($status_type == 'destination') {
+                                            if(isset($item->auth)){
+                                                if (isset($item->auth->params)) {
+                                                    
+                                                    $bucket_name = (isset($item->auth->params->bucketName) && $item->auth->params->bucketName != "" && $item->auth->params->bucketName != null) ? $item->auth->params->bucketName : 'N/A';
+
+                                                    if (in_array($bucket_name, $state_array)){
+                                                        $count_state_array[$bucket_name]++;
+                                                    }else{
+                                                        array_push($state_array, $bucket_name);
+                                                        $count_state_array[$bucket_name] = 1;
+                                                    }
+                                                }else{
+                                                    if (in_array('N/A', $state_array)){
+                                                        $count_state_array['N/A']++;
+                                                    }else{
+                                                        array_push($state_array, 'N/A');
+                                                        $count_state_array['N/A'] = 1;
+                                                    }    
+                                                }
+                                            }else {
+                                                if (in_array('N/A', $state_array)){
+                                                    $count_state_array['N/A']++;
+                                                }else{
+                                                    array_push($state_array, 'N/A');
+                                                    $count_state_array['N/A'] = 1;
+                                                }
+                                            }
+                                            $count++;
+                                        }
                                     }
-                                }
-                                
-                                if ($check == true) {
-                                    if (in_array($item->state, $state_array)){
-                                        $count_state_array[$item->state]++;
-                                    }else{
-                                        array_push($state_array, $item->state);
-                                        $count_state_array[$item->state] = 1;
-                                    }
-                                    $count++;
                                 }
                             }
 
                             if(count($state_array) > 0){
-                                $data[0][0] = 'State';
+                                $data[0][0] = ucfirst($status_type);
                                 $data[0][1] = 'Percentage';
 
                                 $j = 1;
@@ -863,7 +907,6 @@ if(!empty($_GET)){
                                 exit;
                             }
 
-                        } else if ($status_type == 'destination') {
                         }
                     }
                     
@@ -888,6 +931,232 @@ if(!empty($_GET)){
                 exit;
             }
         }
+
+        //==========================Metrics==========================
+        if ($_GET['type'] == 'retrive_metrics'){
+            $body_data = file_get_contents('php://input');
+            if(isset($body_data)){
+                // echo $body_data;exit;
+                $headers = getallheaders();
+                if(!isset($headers['x-sandbox-name'])){
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 400,
+                        'message'=> 'Sandbox name is required.',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                $req_headers = headersParameter($headers);
+                $req_headers[count($req_headers)] = 'x-sandbox-name: '.' '.$headers['x-sandbox-name'];
+                
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, 'https://platform.adobe.io/data/infrastructure/observability/insights/metrics');
+                curl_setopt($ch, CURLOPT_HTTPHEADER, $req_headers);
+                curl_setopt($ch, CURLOPT_POST, 1);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $body_data);
+
+                // Receive server response ...
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+                $server_output = curl_exec($ch);
+                if(!$server_output){
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 400,
+                        'message'=> 'Something went wrong on server side, Connection Failure.',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                    
+                    curl_close ($ch);
+
+                    $data = json_decode($server_output);
+
+                    // print_r($data);exit;
+                    if(isset($data->status)){
+                        if($data->status != 200){
+                            $error = array(
+                                'status'=> false,
+                                'code'=> $data->status,
+                                'message' =>'Something went wrong on server side.',
+                                'data'=> $data,
+                            );
+                            echo json_encode($error);
+                            exit;
+                        }
+                    }
+                    if(!isset($data->error) && !isset($data->errorMessage) && !isset($data->error_code) && !isset($data->errorDetails) && !isset($data->errors)){
+                        $success = array(
+                            'status'=> true,
+                            'code'=> 200,
+                            'data'=> $data,
+                        );
+                        echo json_encode($success);
+                        exit;
+                    }else{
+                        $error = array(
+                            'status'=> false,
+                            'code'=> 200,
+                            'data'=> $data,
+                        );
+                        echo json_encode($error);
+                        exit;
+                    }
+                
+                
+            } else {
+                $error = array(
+                    'status'=> FALSE,
+                    'code'=> 200,
+                    'message'=> 'All data is required for create flow.'
+                );
+                echo json_encode($error);
+                exit;
+            }
+        }
+
+        //==================Bar chart for metrics================
+        if($_GET['type'] == 'bar_chart_metrics'){
+            if (!empty($_POST)) {
+                if(!isset($_POST['status_type'])){
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 200,
+                        'message'=> 'Select at least one metrics operation',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                if (!isset($_POST['from_date'])) {
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 200,
+                        'message'=> 'Start date is required.',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                if (!isset($_POST['to_date'])) {
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 200,
+                        'message'=> 'End date is required.',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                if (!isset($_POST['dataset_id'])) {
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 200,
+                        'message'=> 'Dataset id is required.',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                
+                $status_type = $_POST['status_type'];
+                $from_date = $_POST['from_date'];
+                $to_date = $_POST['to_date'];
+                $dataset_id = $_POST['dataset_id'];
+
+                $result_data = file_get_contents("../log_content/flow_content.txt");
+                $result_data = file_get_contents("observabilitymetrics-batchsuccesscount.json");
+                if(!isset($result_data)){
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 200,
+                        'message'=> 'Data not found.',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                
+                $result_data = json_decode($result_data);
+                if(isset($result_data)){
+                    if (isset($result_data->metricResponses)) {
+                        if (count($result_data->metricResponses) > 0) {
+                            $year_array = array();
+                            $year_value = array();
+                            
+                            $records = $result_data->metricResponses;
+                            foreach ($records as $rec) {
+                                if(count($rec->datapoints) > 0){
+                                    $datapoints = $rec->datapoints;
+                                    foreach ($datapoints as $point) {
+                                        $name = (isset($point->groupBy) && isset($point->groupBy->dataSetId)) ? $point->groupBy->dataSetId : '';
+                                        $color = '#'.str_pad(dechex(rand(0x000000, 0xFFFFFF)), 6, 0, STR_PAD_LEFT);
+                                        $array = get_object_vars($point->dps);
+                                        $num_array = array();
+                                        foreach ($array as $key => $value) {
+                                            $date = date('d-m-Y', strtotime($key));
+                                            array_push($num_array, $value);
+                                            if(!in_array($date, $year_array)){
+                                                array_push($year_array, $date);
+                                            }
+                                        }
+                                        $obj_array = array(
+                                            'color'=> $color,
+                                            'name'=> $name,
+                                            'data'=> $num_array
+                                        );
+
+                                        array_push($year_value, $obj_array);
+                                    }
+                                }
+                            }
+                            
+                            $done = array(
+                                'status'=> true,
+                                'code'=> 200,
+                                'year'=> $year_array,
+                                'year_value'=> $year_value
+                            );
+                            echo json_encode($done);
+                            exit;
+                        }else{
+                            $error = array(
+                                'status'=> false,
+                                'code'=> 200,
+                                'message'=> 'Metric is not available',
+                                'data'=> $result_data,
+                            );
+                            echo json_encode($error);
+                            exit;
+                        }
+                    }else{
+                        $error = array(
+                            'status'=> false,
+                            'code'=> 200,
+                            'message'=> 'Metric is not available',
+                            'data'=> $result_data,
+                        );
+                        echo json_encode($error);
+                        exit;
+                    }
+                }else{
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 200,
+                        'message'=> 'Something went wrong on server side',
+                        'data'=> $result_data,
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+            } else {
+                $error = array(
+                    'status'=> false,
+                    'code'=> 200,
+                    'message'=> 'Data is empty',
+                );
+                echo json_encode($error);
+                exit;
+            }            
+	    }
+
     }else{
         $error = array(
             'status'=> FALSE,
@@ -945,4 +1214,5 @@ function headersParameter($headers){
 
     return $req_headers;
 }
+
 ?>

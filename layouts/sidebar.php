@@ -33,12 +33,12 @@
                 <b class="caret pull-right"></b>
               </a>
               <ul class="sub-menu">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="charts/productchart.html">
                     <span class="menu-title">Product Chart</span>
                     <i class="icon-chart menu-icon"></i>
                   </a>
-                </li>
+                </li> -->
               
                 <li class="nav-item">
                   <a class="nav-link" href="flowServices.php">
@@ -54,27 +54,20 @@
                 </li>
               </ul>
             </li>
-            <!-- <li>
+            <li>
               <a href="#" data-toggle="collapse" data-target="#sub1" id="dropdownLink" class="nav-link">
-                <span class="menu-title">Documentation</span>
+                <span class="menu-title">Moniter</span>
                 <b class="caret pull-right"></b>
               </a>
               <ul class="sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="html/faq.html">
-                    <span class="menu-title">FAQ</span>
-                    <i class="icon-question menu-icon"></i>
-                  </a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="html/api.html">
-                    <span class="menu-title">API</span>
-                    <i class="icon-info menu-icon"></i>
+                  <a class="nav-link" href="dataIngestion.php">
+                    <span class="menu-title">Data Ingestion</span>
+                    <i class="icon-chart menu-icon"></i>
                   </a>
                 </li>
               </ul>
-            </li> -->
+            </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="html/settings.html">
                 <span class="menu-title">Settings</span>

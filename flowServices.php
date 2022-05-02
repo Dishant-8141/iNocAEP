@@ -78,6 +78,9 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function (params) {
+      var url = window.location.href;
+      url = url.slice(0, url.lastIndexOf('/'));
+
       google.charts.load('current', {'packages':['corechart']});
 
       $('#filter-chart').on('click', function () {
@@ -97,7 +100,7 @@
       function drawChart(status_type, from_date, to_date) {
 
         var chartData = $.ajax({
-          url: "/backend/RestAPI.php?type=flowservice_piechart",
+          url:url + "/backend/RestAPI.php?type=flowservice_piechart",
           method: 'POST',
           dataType: "json",
           data: {
