@@ -1,0 +1,2566 @@
+{
+    "items": [
+        {
+            "id": "6e8fcc78-ecf0-4ac7-bbf8-3f4f4f1d70b0",
+            "createdAt": 1650650274812,
+            "updatedAt": 1650650274812,
+            "createdBy": "4C2C64296246C02B0A495C67@4baa4b316246b88b495cb6.e",
+            "updatedBy": "4C2C64296246C02B0A495C67@4baa4b316246b88b495cb6.e",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MAeP",
+            "description": "Marketo CDP Integrated Framework",
+            "connectionSpec": {
+                "id": "bc7b00d6-623a-4dfc-9fdb-f1240aeadaeb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Streaming Connection",
+                "params": {
+                    "sourceId": "MAeP",
+                    "inletUrl": "https://dcs.adobedc.net/collection/6e4a5b4a8a8dbe48bf0372005d7271beca4866bb4dbe9eb0bb37d4f6decb81ba",
+                    "authenticationRequired": false,
+                    "inletId": "6e4a5b4a8a8dbe48bf0372005d7271beca4866bb4dbe9eb0bb37d4f6decb81ba",
+                    "dataType": "raw",
+                    "name": "MAeP"
+                }
+            },
+            "version": "\"b6051b71-0000-0200-0000-6262eca30000\"",
+            "etag": "\"b6051b71-0000-0200-0000-6262eca30000\""
+        },
+        {
+            "id": "19e8238f-a080-47ba-8739-5561cdc3fe2a",
+            "createdAt": 1649789913645,
+            "updatedAt": 1649789913645,
+            "createdBy": "4C2C64296246C02B0A495C67@4baa4b316246b88b495cb6.e",
+            "updatedBy": "4C2C64296246C02B0A495C67@4baa4b316246b88b495cb6.e",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Custom Personalization Destination",
+            "connectionSpec": {
+                "id": "d09e301b-9342-4902-a377-6409a7c6e13e",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"020448b9-0000-0200-0000-6255cbd90000\"",
+            "etag": "\"020448b9-0000-0200-0000-6255cbd90000\""
+        },
+        {
+            "id": "ed3b64d6-e47b-4c54-9093-4df7ea6a6cc5",
+            "createdAt": 1649789395770,
+            "updatedAt": 1649789395770,
+            "createdBy": "4C2C64296246C02B0A495C67@4baa4b316246b88b495cb6.e",
+            "updatedBy": "4C2C64296246C02B0A495C67@4baa4b316246b88b495cb6.e",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "generate share id",
+            "connectionSpec": {
+                "id": "6bdc1d9a-ab0f-4ebf-b52d-cf1c507cb84e",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"0204de1f-0000-0200-0000-6255c9d40000\"",
+            "etag": "\"0204de1f-0000-0200-0000-6255c9d40000\"",
+            "providerRefId": "bea46466-00a0-46f2-b341-d49aad3c6adb"
+        },
+        {
+            "id": "e45de424-4f08-404b-9382-1d968f7a1560",
+            "createdAt": 1646883933826,
+            "updatedAt": 1646883933826,
+            "createdBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "updatedBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Demo_Streaming_Connection",
+            "connectionSpec": {
+                "id": "bc7b00d6-623a-4dfc-9fdb-f1240aeadaeb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Streaming Connection",
+                "params": {
+                    "sourceId": "Demo_Streaming_Connection",
+                    "inletUrl": "https://dcs.adobedc.net/collection/56a92803521332d1299bd76b37473b1bc509b61db51e0d10558a0af605985cb2",
+                    "authenticationRequired": false,
+                    "inletId": "56a92803521332d1299bd76b37473b1bc509b61db51e0d10558a0af605985cb2",
+                    "dataType": "raw",
+                    "name": "Demo_Streaming_Connection"
+                }
+            },
+            "version": "\"0100b299-0000-0200-0000-6229745e0000\"",
+            "etag": "\"0100b299-0000-0200-0000-6229745e0000\""
+        },
+        {
+            "id": "6208bfd1-e1fb-4097-be0d-f7dc249939d5",
+            "createdAt": 1645004079594,
+            "updatedAt": 1645004079594,
+            "createdBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "updatedBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "naras_s3_bucket",
+            "description": "Naras S3 bucket",
+            "connectionSpec": {
+                "id": "ecadc60c-7455-4d87-84dc-2a0e293d997b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "folderPath": "adobecampaigns/AEPSegments",
+                    "bucketName": "adobecampaigns",
+                    "serviceUrl": "",
+                    "s3SessionToken": "",
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIARLWRF7MSLJXKRGLU"
+                }
+            },
+            "version": "\"0000d67a-0000-0200-0000-620cc5340000\"",
+            "etag": "\"0000d67a-0000-0200-0000-620cc5340000\""
+        },
+        {
+            "id": "b4774f37-0c41-4c4d-9ef9-8b9bcf0a4194",
+            "createdAt": 1643973444158,
+            "updatedAt": 1643973444158,
+            "createdBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "updatedBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "SSG_AEP_Streaming_Connection",
+            "description": "SSG_AEP_Streaming_Connection",
+            "connectionSpec": {
+                "id": "bc7b00d6-623a-4dfc-9fdb-f1240aeadaeb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Streaming Connection",
+                "params": {
+                    "sourceId": "SSG_AEP_Streaming_Connection",
+                    "inletUrl": "https://dcs.adobedc.net/collection/327638aade1601b04a31fb960c2fffc8115652d7506f9382fb9f0a8f9f4e4205",
+                    "authenticationRequired": false,
+                    "inletId": "327638aade1601b04a31fb960c2fffc8115652d7506f9382fb9f0a8f9f4e4205",
+                    "dataType": "raw",
+                    "name": "SSG_AEP_Streaming_Connection"
+                }
+            },
+            "version": "\"7601235f-0000-0200-0000-61fd0b440000\"",
+            "etag": "\"7601235f-0000-0200-0000-61fd0b440000\""
+        },
+        {
+            "id": "cd972544-5487-4315-9542-4bb17fea2475",
+            "createdAt": 1643888966111,
+            "updatedAt": 1643888966111,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "AEP Demo - SSG",
+            "description": "AEP Demo - SSG property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"40019d3a-0000-0200-0000-61fbc1460000\"",
+            "etag": "\"40019d3a-0000-0200-0000-61fbc1460000\""
+        },
+        {
+            "id": "7e1ad9c3-330e-4551-8a26-8c7b58d67c1a",
+            "createdAt": 1643748745371,
+            "updatedAt": 1643748745371,
+            "createdBy": "7CA84CF0569F7DD47F000101@AdobeID",
+            "updatedBy": "7CA84CF0569F7DD47F000101@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Adobe Target",
+            "description": "Adobe Target is an application that provides real-time 1:1 and AI-Powered personalization and experimentation in all inbound customer interactions across websites, mobile apps, and more.",
+            "connectionSpec": {
+                "id": "efca21aa-9161-11ab-a8b3-0242ad130003",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"e6007621-0000-0200-0000-61f99d890000\"",
+            "etag": "\"e6007621-0000-0200-0000-61f99d890000\""
+        },
+        {
+            "id": "f687fc10-3a06-4b85-b1f3-ac6081ef64bb",
+            "createdAt": 1641978214478,
+            "updatedAt": 1641978214478,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Airship Tags Destination",
+            "connectionSpec": {
+                "id": "2c6a8689-fd90-43c3-8a73-3595132e102c",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2022-01-12",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"5d125ce7-0000-0200-0000-61de99660000\"",
+            "etag": "\"5d125ce7-0000-0200-0000-61de99660000\""
+        },
+        {
+            "id": "f5fdbcaa-b17b-427e-a0d3-6cdab52aba0d",
+            "createdAt": 1641978175447,
+            "updatedAt": 1641978175447,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Braze",
+            "connectionSpec": {
+                "id": "b69c2b6e-2da2-4448-abc4-890fa81c7024",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2022-01-12",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"5d1200be-0000-0200-0000-61de993f0000\"",
+            "etag": "\"5d1200be-0000-0200-0000-61de993f0000\""
+        },
+        {
+            "id": "6b72f239-2f7d-41b5-873a-57faa364f6b4",
+            "createdAt": 1641299768476,
+            "updatedAt": 1641299768476,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "luma Tutorial",
+            "description": "luma Tutorial property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"4e0b69b3-0000-0200-0000-61d43f380000\"",
+            "etag": "\"4e0b69b3-0000-0200-0000-61d43f380000\""
+        },
+        {
+            "id": "85ba0e86-027c-4281-ad87-9546644c683e",
+            "createdAt": 1641299753330,
+            "updatedAt": 1641299753330,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "luma Tutorial",
+            "description": "luma Tutorial property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"4e0b61a6-0000-0200-0000-61d43f290000\"",
+            "etag": "\"4e0b61a6-0000-0200-0000-61d43f290000\""
+        },
+        {
+            "id": "ad578f78-9225-4f84-9f08-ff3d27e092bf",
+            "createdAt": 1641288422835,
+            "updatedAt": 1641288422835,
+            "createdBy": "06DA41EE6180BF180A495F9D@techacct.adobe.com",
+            "updatedBy": "06DA41EE6180BF180A495F9D@techacct.adobe.com",
+            "createdClient": "7f44669e4c6d410db407b666452444b9",
+            "updatedClient": "7f44669e4c6d410db407b666452444b9",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Sample streaming connection",
+            "description": "Sample streaming connection",
+            "connectionSpec": {
+                "id": "bc7b00d6-623a-4dfc-9fdb-f1240aeadaeb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Streaming Connection",
+                "params": {
+                    "sourceId": "Sample connection",
+                    "inletUrl": "https://dcs.adobedc.net/collection/ab239d896757a704ca1701884ea4646b5b278e54f6a5a036bd8c8153f3729658",
+                    "authenticationRequired": false,
+                    "inletId": "ab239d896757a704ca1701884ea4646b5b278e54f6a5a036bd8c8153f3729658",
+                    "dataType": "xdm",
+                    "name": "Sample connection"
+                }
+            },
+            "version": "\"340b460e-0000-0200-0000-61d412ea0000\"",
+            "etag": "\"340b460e-0000-0200-0000-61d412ea0000\""
+        },
+        {
+            "id": "448324d1-9789-41a3-8e49-016fc70bfe5e",
+            "createdAt": 1640953323290,
+            "updatedAt": 1640953323290,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "AEP chatsnap - Demo",
+            "description": "AEP chatsnap - Demo property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"d408cec8-0000-0200-0000-61cef5eb0000\"",
+            "etag": "\"d408cec8-0000-0200-0000-61cef5eb0000\""
+        },
+        {
+            "id": "bbe590cf-2a1b-47e0-b03e-d2cb772909c2",
+            "createdAt": 1640953308144,
+            "updatedAt": 1640953308144,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "AEP chatsnap - Demo",
+            "description": "AEP chatsnap - Demo property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"d408d8bd-0000-0200-0000-61cef5dc0000\"",
+            "etag": "\"d408d8bd-0000-0200-0000-61cef5dc0000\""
+        },
+        {
+            "id": "f211b7f1-3f26-4434-85c7-06a2991af57f",
+            "createdAt": 1640953292938,
+            "updatedAt": 1640953292938,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "AEP chatsnap - Demo",
+            "description": "AEP chatsnap - Demo property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"d40882b2-0000-0200-0000-61cef5cc0000\"",
+            "etag": "\"d40882b2-0000-0200-0000-61cef5cc0000\""
+        },
+        {
+            "id": "5ab86086-a212-4603-b86c-5acf7e881475",
+            "createdAt": 1640849046397,
+            "updatedAt": 1640849046397,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar",
+            "connectionSpec": {
+                "id": "6936dd27-1812-43c1-981f-4bd6fede8d2e",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-30",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"e607a255-0000-0200-0000-61cd5e960000\"",
+            "etag": "\"e607a255-0000-0200-0000-61cd5e960000\""
+        },
+        {
+            "id": "ab4a74a8-f9e2-45d7-9056-e44d38e5ca2c",
+            "createdAt": 1640842648274,
+            "updatedAt": 1640842648274,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "ABCD",
+            "connectionSpec": {
+                "id": "3f0102f6-bc98-46ef-9916-c7209b72f2ac",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-30",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"d607fc9d-0000-0200-0000-61cd45980000\"",
+            "etag": "\"d607fc9d-0000-0200-0000-61cd45980000\""
+        },
+        {
+            "id": "8a6df19f-eb03-475a-9fff-9096842083b1",
+            "createdAt": 1640679838519,
+            "updatedAt": 1640679838519,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar",
+            "connectionSpec": {
+                "id": "6936dd27-1812-43c1-981f-4bd6fede8d2e",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-28",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"2506af2c-0000-0200-0000-61cac99e0000\"",
+            "etag": "\"2506af2c-0000-0200-0000-61cac99e0000\""
+        },
+        {
+            "id": "9602ab2b-ad28-49a6-8c64-297bc02c8aa9",
+            "createdAt": 1640678075913,
+            "updatedAt": 1640678075913,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar",
+            "connectionSpec": {
+                "id": "6936dd27-1812-43c1-981f-4bd6fede8d2e",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-28",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"2106ebd8-0000-0200-0000-61cac2bc0000\"",
+            "etag": "\"2106ebd8-0000-0200-0000-61cac2bc0000\""
+        },
+        {
+            "id": "d12cbcde-d393-4083-8f6d-352fcda8df37",
+            "createdAt": 1640259973755,
+            "updatedAt": 1640259973755,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "zendesk",
+            "description": "zendesk property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"43035d74-0000-0200-0000-61c461850000\"",
+            "etag": "\"43035d74-0000-0200-0000-61c461850000\""
+        },
+        {
+            "id": "7da420bc-a8e9-4383-8284-bc0d06c1e16c",
+            "createdAt": 1640241342782,
+            "updatedAt": 1640241342782,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "mocklab1",
+            "connectionSpec": {
+                "id": "063f8940-2336-4e41-8c03-1434ce561484",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-23",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"270349bc-0000-0200-0000-61c418bf0000\"",
+            "etag": "\"270349bc-0000-0200-0000-61c418bf0000\""
+        },
+        {
+            "id": "ec93745d-f40d-476b-bb91-4ce0a3ff21f1",
+            "createdAt": 1640165555211,
+            "updatedAt": 1640165555211,
+            "createdBy": "699A61DA61C034A40A495FCE@techacct.adobe.com",
+            "updatedBy": "699A61DA61C034A40A495FCE@techacct.adobe.com",
+            "createdClient": "8825d2f1ac3c49bc8b5f18f707f3ab89",
+            "updatedClient": "8825d2f1ac3c49bc8b5f18f707f3ab89",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp base connection with basic authentication",
+            "description": "MailChimp Campaign base connection with basic authentication",
+            "connectionSpec": {
+                "id": "c8ce8c8c-37fb-4162-9fbf-c2f181e04a7a",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "host": "118765E655DEE7427F000101@AdobeOrg",
+                    "authorizationTestUrl": "https://login.mailchimp.com/oauth2/metadata",
+                    "username": "keerthiu",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"c0024195-0000-0200-0000-61c2f0b50000\"",
+            "etag": "\"c0024195-0000-0200-0000-61c2f0b50000\""
+        },
+        {
+            "id": "8ab1b57b-d1d6-4e9e-9852-28c1981db345",
+            "createdAt": 1639586155014,
+            "updatedAt": 1639586155014,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "mocklab1",
+            "connectionSpec": {
+                "id": "063f8940-2336-4e41-8c03-1434ce561484",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-15",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"4700717f-0000-0200-0000-61ba196b0000\"",
+            "etag": "\"4700717f-0000-0200-0000-61ba196b0000\""
+        },
+        {
+            "id": "586e9ca3-eecd-43f0-b370-1046719cda54",
+            "createdAt": 1639467173306,
+            "updatedAt": 1639467173306,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "mocklab1",
+            "connectionSpec": {
+                "id": "063f8940-2336-4e41-8c03-1434ce561484",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-14",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"ca003321-0000-0200-0000-61b848a60000\"",
+            "etag": "\"ca003321-0000-0200-0000-61b848a60000\""
+        },
+        {
+            "id": "823e8a80-03d8-41aa-905e-f5367486efba",
+            "createdAt": 1639460282328,
+            "updatedAt": 1639460282328,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "mocklab1",
+            "connectionSpec": {
+                "id": "063f8940-2336-4e41-8c03-1434ce561484",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-14",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"c90037e6-0000-0200-0000-61b82dba0000\"",
+            "etag": "\"c90037e6-0000-0200-0000-61b82dba0000\""
+        },
+        {
+            "id": "c554c7df-b131-4afe-9046-48af773306cc",
+            "createdAt": 1639415136244,
+            "updatedAt": 1639415136244,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar",
+            "connectionSpec": {
+                "id": "e859e4cf-eec7-49f5-bda1-a2ad2f2ca947",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-13",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"bf00b9e4-0000-0200-0000-61b77d600000\"",
+            "etag": "\"bf00b9e4-0000-0200-0000-61b77d600000\""
+        },
+        {
+            "id": "8a016578-af63-47ea-aaeb-d8adf6bf5111",
+            "createdAt": 1639408528955,
+            "updatedAt": 1639408528955,
+            "createdBy": "816071A961A8DA010A495CCE@AdobeID",
+            "updatedBy": "816071A961A8DA010A495CCE@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Reqres9",
+            "connectionSpec": {
+                "id": "4cecfe55-e76c-47a6-9096-24cf4bfc83cb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-13",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"bf006d7b-0000-0200-0000-61b763910000\"",
+            "etag": "\"bf006d7b-0000-0200-0000-61b763910000\""
+        },
+        {
+            "id": "e3cddc62-c811-4e3d-8244-27fc3e9eacd5",
+            "createdAt": 1639395937295,
+            "updatedAt": 1639395937295,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Reqres5",
+            "connectionSpec": {
+                "id": "845b2e90-7256-49be-9b77-a7ead655e49b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-13",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"be00bdf7-0000-0200-0000-61b732610000\"",
+            "etag": "\"be00bdf7-0000-0200-0000-61b732610000\""
+        },
+        {
+            "id": "029b0daa-5786-4f2d-aa63-f89d02d2339e",
+            "createdAt": 1639050271048,
+            "updatedAt": 1639050271048,
+            "createdBy": "ED62574E619CDE070A495C7D@AdobeID",
+            "updatedBy": "ED62574E619CDE070A495C7D@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "mocklab1",
+            "connectionSpec": {
+                "id": "063f8940-2336-4e41-8c03-1434ce561484",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-09",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"920082db-0000-0200-0000-61b1ec1f0000\"",
+            "etag": "\"920082db-0000-0200-0000-61b1ec1f0000\""
+        },
+        {
+            "id": "91b79c3e-4b82-470d-84de-555157ba54be",
+            "createdAt": 1639045454158,
+            "updatedAt": 1639045454158,
+            "createdBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "updatedBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MoviestarTESTTTTTT",
+            "connectionSpec": {
+                "id": "30fb18ce-674d-4158-8a86-8cacb9ab34db",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-09",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"8d00c598-0000-0200-0000-61b1d94e0000\"",
+            "etag": "\"8d00c598-0000-0200-0000-61b1d94e0000\""
+        },
+        {
+            "id": "5a84ac20-ccf9-43b5-9510-1535b3446131",
+            "createdAt": 1639037763191,
+            "updatedAt": 1639037763191,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar",
+            "connectionSpec": {
+                "id": "6936dd27-1812-43c1-981f-4bd6fede8d2e",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-09",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"8800d5b7-0000-0200-0000-61b1bb430000\"",
+            "etag": "\"8800d5b7-0000-0200-0000-61b1bb430000\""
+        },
+        {
+            "id": "00e6c720-2775-4ec9-bc7d-a8ec4f2ae428",
+            "createdAt": 1639036393405,
+            "updatedAt": 1639036393405,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "mocklab1",
+            "connectionSpec": {
+                "id": "063f8940-2336-4e41-8c03-1434ce561484",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-09",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"870031cd-0000-0200-0000-61b1b5e90000\"",
+            "etag": "\"870031cd-0000-0200-0000-61b1b5e90000\""
+        },
+        {
+            "id": "08e1c81e-9baf-4555-bc28-1a86fb5d72bc",
+            "createdAt": 1639031720287,
+            "updatedAt": 1639031720287,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Reqres5",
+            "connectionSpec": {
+                "id": "845b2e90-7256-49be-9b77-a7ead655e49b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-09",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"84003da2-0000-0200-0000-61b1a3a80000\"",
+            "etag": "\"84003da2-0000-0200-0000-61b1a3a80000\""
+        },
+        {
+            "id": "9dd75f3f-b679-4d56-a622-2969b202a40a",
+            "createdAt": 1638970685821,
+            "updatedAt": 1638970685821,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Reqres4",
+            "connectionSpec": {
+                "id": "8faee7d4-7c82-4ecc-921c-dabcbb4f46bb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-08",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"8a09fff3-0000-0200-0000-61b0b53e0000\"",
+            "etag": "\"8a09fff3-0000-0200-0000-61b0b53e0000\""
+        },
+        {
+            "id": "d6d1243c-9eb2-400a-95aa-19d3189da3bf",
+            "createdAt": 1638970427704,
+            "updatedAt": 1638970427704,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Reqres4",
+            "connectionSpec": {
+                "id": "8faee7d4-7c82-4ecc-921c-dabcbb4f46bb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-08",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"8a0939a1-0000-0200-0000-61b0b43b0000\"",
+            "etag": "\"8a0939a1-0000-0200-0000-61b0b43b0000\""
+        },
+        {
+            "id": "8bfe71e2-981d-466d-87f9-7d00ee009742",
+            "createdAt": 1638969165333,
+            "updatedAt": 1638969165333,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "mocklab1",
+            "connectionSpec": {
+                "id": "063f8940-2336-4e41-8c03-1434ce561484",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-08",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"87097353-0000-0200-0000-61b0af4d0000\"",
+            "etag": "\"87097353-0000-0200-0000-61b0af4d0000\""
+        },
+        {
+            "id": "abc17b36-fc5a-4cc1-aa34-a3036b3ee071",
+            "createdAt": 1638965160136,
+            "updatedAt": 1638965160136,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Reqres5",
+            "connectionSpec": {
+                "id": "845b2e90-7256-49be-9b77-a7ead655e49b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-08",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"81093f94-0000-0200-0000-61b09fa80000\"",
+            "etag": "\"81093f94-0000-0200-0000-61b09fa80000\""
+        },
+        {
+            "id": "e53de2f9-7ca5-4f32-b325-d119166c7958",
+            "createdAt": 1638954556207,
+            "updatedAt": 1638954556207,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp Connector Generic Rest",
+            "description": "Mail Chimp Rest Connection created with Generic Rest",
+            "connectionSpec": {
+                "id": "3bf8ca23-ec4b-495f-9efd-b20470e3d89f",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "OAuth2 Refresh Code",
+                "params": {
+                    "host": "api.com",
+                    "accessToken": "xxxx"
+                }
+            },
+            "version": "\"61095d43-0000-0200-0000-61b0763e0000\"",
+            "etag": "\"61095d43-0000-0200-0000-61b0763e0000\""
+        },
+        {
+            "id": "de8bb397-45c7-4596-bed2-26d4a61b31e7",
+            "createdAt": 1638953619162,
+            "updatedAt": 1638953619162,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp Connector Generic Rest",
+            "description": "Mail Chimp Rest Connection created with Generic Rest",
+            "connectionSpec": {
+                "id": "3bf8ca23-ec4b-495f-9efd-b20470e3d89f",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "OAuth2 Refresh Code",
+                "params": {
+                    "host": "api.partner.com",
+                    "accessToken": "xxxx"
+                }
+            },
+            "version": "\"5b0900de-0000-0200-0000-61b072940000\"",
+            "etag": "\"5b0900de-0000-0200-0000-61b072940000\""
+        },
+        {
+            "id": "3e70e66e-e959-46da-9ef8-64c370e60a5e",
+            "createdAt": 1638953197301,
+            "updatedAt": 1638953197301,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp Connector Generic Rest",
+            "description": "Mail Chimp Rest Connection created with Generic Rest",
+            "connectionSpec": {
+                "id": "3bf8ca23-ec4b-495f-9efd-b20470e3d89f",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "OAuth2 Refresh Code",
+                "params": {
+                    "host": "api.partner.com",
+                    "accessToken": "xxxx"
+                }
+            },
+            "version": "\"5909d579-0000-0200-0000-61b070ef0000\"",
+            "etag": "\"5909d579-0000-0200-0000-61b070ef0000\""
+        },
+        {
+            "id": "0338a49d-4a5e-4eee-aac1-8ebbb654a263",
+            "createdAt": 1638953163277,
+            "updatedAt": 1638953163277,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp Connector Generic Rest",
+            "description": "Mail Chimp Rest Connection created with Generic Rest",
+            "connectionSpec": {
+                "id": "3bf8ca23-ec4b-495f-9efd-b20470e3d89f",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "OAuth2 Refresh Code",
+                "params": {
+                    "host": "api.partner.com",
+                    "accessToken": "xxxx"
+                }
+            },
+            "version": "\"59095a48-0000-0200-0000-61b070cd0000\"",
+            "etag": "\"59095a48-0000-0200-0000-61b070cd0000\""
+        },
+        {
+            "id": "b3d2b8c2-7ed1-40c6-98e4-92ee5a62ea1c",
+            "createdAt": 1638948986329,
+            "updatedAt": 1638948986329,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp base connection with basic authentication",
+            "description": "MailChimp Campaign base connection with basic authentication",
+            "connectionSpec": {
+                "id": "c8ce8c8c-37fb-4162-9fbf-c2f181e04a7a",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "host": "{HOST}",
+                    "authorizationTestUrl": "https://login.mailchimp.com/oauth2/metadata",
+                    "username": "{USERNAME}",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"4709ef8d-0000-0200-0000-61b0607c0000\"",
+            "etag": "\"4709ef8d-0000-0200-0000-61b0607c0000\""
+        },
+        {
+            "id": "bcf4465a-cd87-40e6-a8ba-c3240c42ddf5",
+            "createdAt": 1638948004097,
+            "updatedAt": 1638948004097,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp base connection with basic authentication",
+            "description": "MailChimp Campaign base connection with basic authentication",
+            "connectionSpec": {
+                "id": "c8ce8c8c-37fb-4162-9fbf-c2f181e04a7a",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "host": "{HOST}",
+                    "authorizationTestUrl": "https://login.mailchimp.com/oauth2/metadata",
+                    "username": "{USERNAME}",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"4609d6a1-0000-0200-0000-61b05ca50000\"",
+            "etag": "\"4609d6a1-0000-0200-0000-61b05ca50000\""
+        },
+        {
+            "id": "59e6bbd3-1c21-4ab4-a128-ff90f3760f2a",
+            "createdAt": 1638947747541,
+            "updatedAt": 1638947747541,
+            "createdBy": "514544A36197F2D30A495C34@AdobeID",
+            "updatedBy": "514544A36197F2D30A495C34@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Customer Attributes",
+            "connectionSpec": {
+                "id": "d27d4907-7351-47dd-bbc2-05a04365703d",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"46094c75-0000-0200-0000-61b05ba30000\"",
+            "etag": "\"46094c75-0000-0200-0000-61b05ba30000\""
+        },
+        {
+            "id": "aaad4175-7311-434e-936a-da152cf07c57",
+            "createdAt": 1638944707036,
+            "updatedAt": 1638944707036,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Testing for eventforwarding",
+            "description": "Testing for eventforwarding property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"44091712-0000-0200-0000-61b04fc30000\"",
+            "etag": "\"44091712-0000-0200-0000-61b04fc30000\""
+        },
+        {
+            "id": "7c908127-8a3f-4737-9915-3c949dcfc6a3",
+            "createdAt": 1638943988186,
+            "updatedAt": 1638943988186,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp base connection with basic authentication",
+            "description": "MailChimp Campaign base connection with basic authentication",
+            "connectionSpec": {
+                "id": "07c9464b-0983-423b-92ef-2c3caeb8f092",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "host": "{HOST}",
+                    "authorizationTestUrl": "https://login.mailchimp.com/oauth2/metadata",
+                    "username": "{USERNAME}",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"4309b565-0000-0200-0000-61b04cf60000\"",
+            "etag": "\"4309b565-0000-0200-0000-61b04cf60000\""
+        },
+        {
+            "id": "43d6d375-ed72-4f5c-bb7b-14ea7ec5efd6",
+            "createdAt": 1638941109877,
+            "updatedAt": 1638941109877,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp base connection with basic authentication",
+            "description": "MailChimp Campaign base connection with basic authentication",
+            "connectionSpec": {
+                "id": "07c9464b-0983-423b-92ef-2c3caeb8f092",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "host": "{HOST}",
+                    "authorizationTestUrl": "https://login.mailchimp.com/oauth2/metadata",
+                    "username": "{USERNAME}",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"4109b25f-0000-0200-0000-61b041b70000\"",
+            "etag": "\"4109b25f-0000-0200-0000-61b041b70000\""
+        },
+        {
+            "id": "c40a5577-cc17-45bc-89bd-09ea9a312b2d",
+            "createdAt": 1638885593048,
+            "updatedAt": 1638885593048,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp base connection with basic authentication",
+            "description": "MailChimp Campaign base connection with basic authentication",
+            "connectionSpec": {
+                "id": "07c9464b-0983-423b-92ef-2c3caeb8f092",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "host": "{HOST}",
+                    "authorizationTestUrl": "https://login.mailchimp.com/oauth2/metadata",
+                    "username": "{USERNAME}",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"77069c83-0000-0200-0000-61af68db0000\"",
+            "etag": "\"77069c83-0000-0200-0000-61af68db0000\""
+        },
+        {
+            "id": "067f054a-3883-42b4-9ece-909fd94a7b6e",
+            "createdAt": 1638885461842,
+            "updatedAt": 1638885461842,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp base connection with basic authentication",
+            "description": "MailChimp Campaign base connection with basic authentication",
+            "connectionSpec": {
+                "id": "c8ce8c8c-37fb-4162-9fbf-c2f181e04a7a",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "host": "{HOST}",
+                    "authorizationTestUrl": "https://login.mailchimp.com/oauth2/metadata",
+                    "username": "{USERNAME}",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"7706076f-0000-0200-0000-61af68580000\"",
+            "etag": "\"7706076f-0000-0200-0000-61af68580000\""
+        },
+        {
+            "id": "0655ce75-35f8-491d-997f-e4c1e32d3eec",
+            "createdAt": 1638883867910,
+            "updatedAt": 1638883867910,
+            "createdBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "updatedBy": "8EA7719161A9A3E10A495EE1@techacct.adobe.com",
+            "createdClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "updatedClient": "8ae4d74ea50c4334835f6a14a52994a3",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MailChimp base connection with basic authentication",
+            "description": "MailChimp Campaign base connection with basic authentication",
+            "connectionSpec": {
+                "id": "c8ce8c8c-37fb-4162-9fbf-c2f181e04a7a",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "host": "{HOST}",
+                    "authorizationTestUrl": "https://login.mailchimp.com/oauth2/metadata",
+                    "username": "{USERNAME}",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"76069f3b-0000-0200-0000-61af621e0000\"",
+            "etag": "\"76069f3b-0000-0200-0000-61af621e0000\""
+        },
+        {
+            "id": "e9bd6dd7-7f11-408a-a9c2-35f24bbb9942",
+            "createdAt": 1638853972899,
+            "updatedAt": 1638853972899,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar1",
+            "connectionSpec": {
+                "id": "612b1d5d-f1d6-4477-b26a-a9eb0b526770",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-07",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"5f063c3c-0000-0200-0000-61aeed550000\"",
+            "etag": "\"5f063c3c-0000-0200-0000-61aeed550000\""
+        },
+        {
+            "id": "9bf2452f-d928-44ea-90a6-2cbd721f1141",
+            "createdAt": 1638541007977,
+            "updatedAt": 1638541007977,
+            "createdBy": "514544A36197F2D30A495C34@AdobeID",
+            "updatedBy": "514544A36197F2D30A495C34@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "ABCD",
+            "connectionSpec": {
+                "id": "3f0102f6-bc98-46ef-9916-c7209b72f2ac",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"8c05cd8b-0000-0200-0000-61aa26d00000\"",
+            "etag": "\"8c05cd8b-0000-0200-0000-61aa26d00000\""
+        },
+        {
+            "id": "d8d14a3b-d868-46f1-adf2-c663d3957fd0",
+            "createdAt": 1638527662194,
+            "updatedAt": 1638527662194,
+            "createdBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "updatedBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "ABCD",
+            "connectionSpec": {
+                "id": "3f0102f6-bc98-46ef-9916-c7209b72f2ac",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"8305653d-0000-0200-0000-61a9f2ae0000\"",
+            "etag": "\"8305653d-0000-0200-0000-61a9f2ae0000\""
+        },
+        {
+            "id": "729b9fac-3e77-485c-b77e-d325a31b2795",
+            "createdAt": 1638527111801,
+            "updatedAt": 1638527111801,
+            "createdBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "updatedBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "ABCD",
+            "connectionSpec": {
+                "id": "3f0102f6-bc98-46ef-9916-c7209b72f2ac",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"820503dd-0000-0200-0000-61a9f0880000\"",
+            "etag": "\"820503dd-0000-0200-0000-61a9f0880000\""
+        },
+        {
+            "id": "3971f51b-4cab-47fc-97ed-d051e83148c8",
+            "createdAt": 1638518757212,
+            "updatedAt": 1638518757212,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Reqres1",
+            "connectionSpec": {
+                "id": "3f3c225d-2723-4656-90ef-7700906c5907",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"7a050051-0000-0200-0000-61a9cfe50000\"",
+            "etag": "\"7a050051-0000-0200-0000-61a9cfe50000\""
+        },
+        {
+            "id": "32a43845-36ef-44d0-8331-26b46879258e",
+            "createdAt": 1638517645035,
+            "updatedAt": 1638517645035,
+            "createdBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "updatedBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MoviestarTESTTTTTT",
+            "connectionSpec": {
+                "id": "30fb18ce-674d-4158-8a86-8cacb9ab34db",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03"
+                }
+            },
+            "version": "\"7905931e-0000-0200-0000-61a9cb8d0000\"",
+            "etag": "\"7905931e-0000-0200-0000-61a9cb8d0000\""
+        },
+        {
+            "id": "2da8819b-086c-4c8e-8c93-695941d7b7c5",
+            "createdAt": 1638517440755,
+            "updatedAt": 1638517440755,
+            "createdBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "updatedBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MoviestarTESTTTTTT",
+            "connectionSpec": {
+                "id": "30fb18ce-674d-4158-8a86-8cacb9ab34db",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"7805f1e6-0000-0200-0000-61a9cac00000\"",
+            "etag": "\"7805f1e6-0000-0200-0000-61a9cac00000\""
+        },
+        {
+            "id": "4f2509b2-078d-4df6-a0d9-644092addc8a",
+            "createdAt": 1638516586988,
+            "updatedAt": 1638516586988,
+            "createdBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "updatedBy": "F16571BB619CD5F30A495EDD@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "MoviestarTESTTTTTT",
+            "connectionSpec": {
+                "id": "30fb18ce-674d-4158-8a86-8cacb9ab34db",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"770584f4-0000-0200-0000-61a9c76b0000\"",
+            "etag": "\"770584f4-0000-0200-0000-61a9c76b0000\""
+        },
+        {
+            "id": "4ea76a09-09bc-4e57-8b58-61c2594ae9d5",
+            "createdAt": 1638512614535,
+            "updatedAt": 1638512614535,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar1",
+            "connectionSpec": {
+                "id": "d5925349-ced8-4012-b52d-d54c0ac0a5e0",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"73051f82-0000-0200-0000-61a9b7e60000\"",
+            "etag": "\"73051f82-0000-0200-0000-61a9b7e60000\""
+        },
+        {
+            "id": "4855f42a-a93d-492f-b82e-16c89718905a",
+            "createdAt": 1638511420459,
+            "updatedAt": 1638511420459,
+            "createdBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "updatedBy": "EBB02F70619CDBCD0A495CD2@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar",
+            "connectionSpec": {
+                "id": "e859e4cf-eec7-49f5-bda1-a2ad2f2ca947",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"71050fe8-0000-0200-0000-61a9b33c0000\"",
+            "etag": "\"71050fe8-0000-0200-0000-61a9b33c0000\""
+        },
+        {
+            "id": "c097ffd7-6ac7-4e8f-b775-b9aaafc47c84",
+            "createdAt": 1638511228359,
+            "updatedAt": 1638511228359,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar",
+            "connectionSpec": {
+                "id": "6936dd27-1812-43c1-981f-4bd6fede8d2e",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"71050da7-0000-0200-0000-61a9b27c0000\"",
+            "etag": "\"71050da7-0000-0200-0000-61a9b27c0000\""
+        },
+        {
+            "id": "4ca3287d-3b0d-40da-99f1-9860662bf540",
+            "createdAt": 1638511130613,
+            "updatedAt": 1638511130613,
+            "createdBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "updatedBy": "F0264F81619CDC510A495ED8@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Moviestar",
+            "connectionSpec": {
+                "id": "6936dd27-1812-43c1-981f-4bd6fede8d2e",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Bearer Token",
+                "params": {
+                    "authorizedDate": "2021-12-03",
+                    "token": "xxxx"
+                }
+            },
+            "version": "\"7105ae85-0000-0200-0000-61a9b21a0000\"",
+            "etag": "\"7105ae85-0000-0200-0000-61a9b21a0000\""
+        },
+        {
+            "id": "4e8d7f8a-aa04-4147-844e-1a6e04738bd3",
+            "createdAt": 1638436424261,
+            "updatedAt": 1638436424261,
+            "createdBy": "3DDB779C58F70DB10A495ECF@AdobeID",
+            "updatedBy": "3DDB779C58F70DB10A495ECF@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Twitter Tailored Audiences",
+            "description": "Twitter Tailored Audiences-OAUTH1",
+            "connectionSpec": {
+                "id": "70a524f6-2f78-4af9-94d4-83f34ae413bb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "oauth1",
+                "params": {
+                    "accessToken": "xxxx",
+                    "tokenSecret": "xxxx",
+                    "issuedAt": 1638436422998
+                }
+            },
+            "version": "\"1005c172-0000-0200-0000-61a88e480000\"",
+            "etag": "\"1005c172-0000-0200-0000-61a88e480000\""
+        },
+        {
+            "id": "e5ccc04f-2217-4548-90a3-6aa6ee5835dc",
+            "createdAt": 1637835579194,
+            "updatedAt": 1637835579194,
+            "createdBy": "F0895C82619CDBCC0A495FD0@AdobeID",
+            "updatedBy": "F0895C82619CDBCC0A495FD0@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Microsoft Bing",
+            "description": "Microsoft Bing Ads execute retargeting and audience targeted digital campaigns across Microsoft Display Advertising.",
+            "connectionSpec": {
+                "id": "da5fcf05-6458-47bf-9a01-a63a4dab2bf5",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"3203b4f5-0000-0200-0000-619f633b0000\"",
+            "etag": "\"3203b4f5-0000-0200-0000-619f633b0000\""
+        },
+        {
+            "id": "62439e10-3a51-411a-ab21-844a89ae91d6",
+            "createdAt": 1637819430431,
+            "updatedAt": 1637819430431,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "AEP Demo - Vertical 2021-11-25 05:24:37",
+            "description": "AEP Demo - Vertical 2021-11-25 05:24:37 property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"25037d49-0000-0200-0000-619f24260000\"",
+            "etag": "\"25037d49-0000-0200-0000-619f24260000\""
+        },
+        {
+            "id": "91ae2182-09f0-4b90-a545-c38cd2dced89",
+            "createdAt": 1636431541323,
+            "updatedAt": 1636431541323,
+            "createdBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "updatedBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "S3-AKIARLWRF7MSLJXKRGLU",
+            "description": "Adobe Campaign is a set of solutions that help you personalize and deliver campaigns across all your online and offline channels.",
+            "connectionSpec": {
+                "id": "0b23e41a-cb4a-4321-a78f-3b654f5d7d97",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "S3",
+                "params": {
+                    "authorizedDate": "2021-11-09",
+                    "secretKey": "xxxx",
+                    "accessId": "AKIARLWRF7MSLJXKRGLU"
+                }
+            },
+            "version": "\"b9014a1c-0000-0200-0000-6189f6b50000\"",
+            "etag": "\"b9014a1c-0000-0200-0000-6189f6b50000\""
+        },
+        {
+            "id": "4e1c5361-9378-4924-adeb-005b9a26c180",
+            "createdAt": 1636425099730,
+            "updatedAt": 1636425099730,
+            "createdBy": "3C112896592DEA0F0A495D28@AdobeID",
+            "updatedBy": "3C112896592DEA0F0A495D28@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "amazon-s3",
+            "description": "Create a live outbound connection to your AWS S3 buckets to periodically export delimited data files from Experience Platform.",
+            "connectionSpec": {
+                "id": "4890fc95-5a1f-4983-94bb-e060c08e3f81",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "authorizedDate": "2021-11-09",
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIA2LB47JPSIRHLRM7Y"
+                }
+            },
+            "version": "\"b80139f9-0000-0200-0000-6189dd8c0000\"",
+            "etag": "\"b80139f9-0000-0200-0000-6189dd8c0000\""
+        },
+        {
+            "id": "3842269f-56b6-4640-84e8-5329e8e16b57",
+            "createdAt": 1636424272448,
+            "updatedAt": 1636424272448,
+            "createdBy": "3C112896592DEA0F0A495D28@AdobeID",
+            "updatedBy": "3C112896592DEA0F0A495D28@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Test Acct Jai",
+            "description": "Test S3 Acct",
+            "connectionSpec": {
+                "id": "ecadc60c-7455-4d87-84dc-2a0e293d997b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "folderPath": "",
+                    "bucketName": "",
+                    "serviceUrl": "",
+                    "s3SessionToken": "",
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIA2LB47JPSIRHLRM7Y"
+                }
+            },
+            "version": "\"b80178f3-0000-0200-0000-6189da550000\"",
+            "etag": "\"b80178f3-0000-0200-0000-6189da550000\""
+        },
+        {
+            "id": "01f244df-7587-4c07-8560-f78e7ec15800",
+            "createdAt": 1636399323689,
+            "updatedAt": 1636399323689,
+            "createdBy": "7CA84CF0569F7DD47F000101@AdobeID",
+            "updatedBy": "7CA84CF0569F7DD47F000101@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Google Ads",
+            "description": "Google Ads, formerly known as Google AdWords, is an online advertising service that allows businesses to pay-per-click advertising across text-based searches, graphic displays, YouTube videos, and in-app mobile displays.",
+            "connectionSpec": {
+                "id": "69958a65-0686-49a8-b23c-65d1955272c5",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"ae013198-0000-0200-0000-618978dc0000\"",
+            "etag": "\"ae013198-0000-0200-0000-618978dc0000\""
+        },
+        {
+            "id": "0d5ae6da-27a2-4c7f-953d-e07d46e93f60",
+            "createdAt": 1636365044971,
+            "updatedAt": 1636365044971,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "AEP Demo - Vertical 2021-11-08 08:24:10",
+            "description": "AEP Demo - Vertical 2021-11-08 08:24:10 property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"a801666d-0000-0200-0000-6188f2f40000\"",
+            "etag": "\"a801666d-0000-0200-0000-6188f2f40000\""
+        },
+        {
+            "id": "8f6a66a3-0cb0-40d4-b8ef-e6bfa1bc9c0f",
+            "createdAt": 1634858277000,
+            "updatedAt": 1634858277000,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Test",
+            "description": "Test property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"1b00593a-0000-0200-0000-6171f5250000\"",
+            "etag": "\"1b00593a-0000-0200-0000-6171f5250000\""
+        },
+        {
+            "id": "1554cc1a-deaa-4753-a6f4-d881fec8e403",
+            "createdAt": 1634858261781,
+            "updatedAt": 1634858261781,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Test",
+            "description": "Test property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"1b00573a-0000-0200-0000-6171f5150000\"",
+            "etag": "\"1b00573a-0000-0200-0000-6171f5150000\""
+        },
+        {
+            "id": "3efb611b-365a-469e-b383-579c04676d22",
+            "createdAt": 1610699215091,
+            "updatedAt": 1633439073791,
+            "createdBy": "89892C6D5C528D540A495C7C@AdobeID",
+            "updatedBy": "acp_foundation_connectors_e2e@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "acp_foundation_connectors_e2e",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Nitesh-salesforce",
+            "description": "This is for Salesforce Integration",
+            "connectionSpec": {
+                "id": "cfc0fee1-7dc0-40ef-b73e-d8b134c436f5",
+                "version": "1.0"
+            },
+            "state": "update-pending",
+            "auth": {
+                "specName": "Basic Authentication",
+                "params": {
+                    "username": "nitesh.soni@infosys.com",
+                    "password": "xxxx",
+                    "securityToken": "xxxx"
+                }
+            },
+            "version": "\"64009264-0000-0200-0000-615c4d610000\"",
+            "etag": "\"64009264-0000-0200-0000-615c4d610000\""
+        },
+        {
+            "id": "ea4435d8-7def-438c-873f-1e5e89733ffb",
+            "createdAt": 1633327976883,
+            "updatedAt": 1633327976883,
+            "createdBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "updatedBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "adbinfy",
+            "description": "Adobe Infy",
+            "connectionSpec": {
+                "id": "38ad80fe-8b06-4938-94f4-d4ee80266b07",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication for Dynamics-Online",
+                "params": {
+                    "serviceUri": "https://adbinfy.crm8.dynamics.com",
+                    "username": "Insurance@MSPDemo.onmicrosoft.com",
+                    "password": "xxxx"
+                }
+            },
+            "version": "\"5b00eb78-0000-0200-0000-615a9b730000\"",
+            "etag": "\"5b00eb78-0000-0200-0000-615a9b730000\""
+        },
+        {
+            "id": "0bdab22e-01fd-4efb-86e7-38da3d09e3e2",
+            "createdAt": 1633001906597,
+            "updatedAt": 1633001906597,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "AEP Demo - Naras",
+            "description": "AEP Demo - Naras property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"4d00ce4c-0000-0200-0000-6155a1b20000\"",
+            "etag": "\"4d00ce4c-0000-0200-0000-6155a1b20000\""
+        },
+        {
+            "id": "517cd7b1-e451-4842-918b-5d90061bdf07",
+            "createdAt": 1632816772748,
+            "updatedAt": 1632816772748,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Anoop - Demo System (28/09/2021) (Web)",
+            "description": "Anoop - Demo System (28/09/2021) (Web) property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"430083a3-0000-0200-0000-6152ce840000\"",
+            "etag": "\"430083a3-0000-0200-0000-6152ce840000\""
+        },
+        {
+            "id": "98819f2f-e402-48b0-8bb0-ace8f39a4121",
+            "createdAt": 1632386340348,
+            "updatedAt": 1632386340348,
+            "createdBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "updatedBy": "86B71E99611BE4EF0A495ED0@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "streaming connection naras",
+            "description": "streaming connection naras",
+            "connectionSpec": {
+                "id": "bc7b00d6-623a-4dfc-9fdb-f1240aeadaeb",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Streaming Connection",
+                "params": {
+                    "sourceId": "streaming connection naras",
+                    "inletUrl": "https://dcs.adobedc.net/collection/6a4119077dbe5d359eaf347428d5f7831b23b6ecc50d43a92e5f7cca8c9d4720",
+                    "authenticationRequired": false,
+                    "inletId": "6a4119077dbe5d359eaf347428d5f7831b23b6ecc50d43a92e5f7cca8c9d4720",
+                    "dataType": "raw",
+                    "name": "streaming connection naras"
+                }
+            },
+            "version": "\"0000bd8f-0000-0200-0000-614c3d240000\"",
+            "etag": "\"0000bd8f-0000-0200-0000-614c3d240000\""
+        },
+        {
+            "id": "042c7024-d180-45ac-a1a1-ad21994c031b",
+            "createdAt": 1622711902806,
+            "updatedAt": 1622711902806,
+            "createdBy": "reactor_service_api@AdobeID",
+            "updatedBy": "reactor_service_api@AdobeID",
+            "createdClient": "reactor_service_api",
+            "updatedClient": "reactor_service_api",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "yasar - Demo System (06/03/2021) (web)",
+            "description": "yasar - Demo System (06/03/2021) (web) property in Adobe Launch",
+            "connectionSpec": {
+                "id": "fa7ee074-7888-4d4e-a791-3f002f8e53c3",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"370075e5-0000-0200-0000-60b89e5e0000\"",
+            "etag": "\"370075e5-0000-0200-0000-60b89e5e0000\""
+        },
+        {
+            "id": "3cdce9ca-5a6a-4562-95d8-2d291d099dd6",
+            "createdAt": 1620153488681,
+            "updatedAt": 1620153488681,
+            "createdBy": "3C112896592DEA0F0A495D28@AdobeID",
+            "updatedBy": "3C112896592DEA0F0A495D28@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Google Ad Manager",
+            "description": "Google Ad Manager, formerly known as DoubleClick for Publishers or DoubleClick AdX, is an ad serving platform from Google that gives publishers the means to manage the display of advertisements on their websites, through video and in mobile apps. This integration supports both DFP and AdX account types, please check with your Google representative on which account type you have.",
+            "connectionSpec": {
+                "id": "649dd913-f3d0-46f5-b89e-3170aa9787c0",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"1b00f493-0000-0200-0000-609194900000\"",
+            "etag": "\"1b00f493-0000-0200-0000-609194900000\""
+        },
+        {
+            "id": "7a7744e7-5a55-49cd-b744-e75a55a9cdda",
+            "createdAt": 1604670546578,
+            "updatedAt": 1604670546578,
+            "createdBy": "073619F65D565D080A495FEE@AdobeID",
+            "updatedBy": "073619F65D565D080A495FEE@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "sftp",
+            "description": "Create a live outbound connection to your SFTP server to periodically export delimited data files from Experience Platform.",
+            "connectionSpec": {
+                "id": "64ef4b8b-a6e0-41b5-9677-3805d1ee5dd0",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Basic Authentication for sftp",
+                "params": {
+                    "password": "xxxx",
+                    "host": "ftp4.omniture.com",
+                    "authorizedDate": "2020-11-06",
+                    "userName": "ageo1xxsinnagdemo_7082050"
+                }
+            },
+            "version": "\"6402a5b7-0000-0200-0000-5fa554550000\"",
+            "etag": "\"6402a5b7-0000-0200-0000-5fa554550000\""
+        },
+        {
+            "id": "ccc9dc50-53c1-4fc2-89dc-5053c1cfc2b3",
+            "createdAt": 1604404178217,
+            "updatedAt": 1604404178217,
+            "createdBy": "9535186A5D96EF730A495E2F@AdobeID",
+            "updatedBy": "9535186A5D96EF730A495E2F@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "amazon-s3",
+            "description": "Create a live outbound connection to your AWS S3 buckets to periodically export delimited data files from Experience Platform.",
+            "connectionSpec": {
+                "id": "4890fc95-5a1f-4983-94bb-e060c08e3f81",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIAJSKG4ODRKTOIJCBA",
+                    "authorizedDate": "2020-11-03"
+                }
+            },
+            "version": "\"f7002733-0000-0200-0000-5fa143d20000\"",
+            "etag": "\"f7002733-0000-0200-0000-5fa143d20000\""
+        },
+        {
+            "id": "f5e879f8-9512-4fb4-a879-f89512cfb426",
+            "createdAt": 1595937257911,
+            "updatedAt": 1595937257911,
+            "createdBy": "D22549AA57EA45587F000101@AdobeID",
+            "updatedBy": "D22549AA57EA45587F000101@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "TMO-CareDataLoad",
+            "description": "TMO-CareDataLoad",
+            "connectionSpec": {
+                "id": "ecadc60c-7455-4d87-84dc-2a0e293d997b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "bucketName": "tmob-b1",
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIAJ3Q6XWS7OSUCVZ3A"
+                }
+            },
+            "version": "\"1e00cc57-0000-0200-0000-5f2011ed0000\"",
+            "etag": "\"1e00cc57-0000-0200-0000-5f2011ed0000\""
+        },
+        {
+            "id": "5fee949f-5cba-4166-ae94-9f5cba91664c",
+            "createdAt": 1595913219053,
+            "updatedAt": 1595913219053,
+            "createdBy": "D22549AA57EA45587F000101@AdobeID",
+            "updatedBy": "D22549AA57EA45587F000101@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "amazon-s3",
+            "description": "Create a live outbound connection to your AWS S3 buckets to periodically export delimited data files from Experience Platform.",
+            "connectionSpec": {
+                "id": "4890fc95-5a1f-4983-94bb-e060c08e3f81",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIAJ3Q6XWS7OSUCVZ3A",
+                    "authorizedDate": "2020-07-28"
+                }
+            },
+            "version": "\"1d004b42-0000-0200-0000-5f1fb4050000\"",
+            "etag": "\"1d004b42-0000-0200-0000-5f1fb4050000\""
+        },
+        {
+            "id": "78d33372-426c-40e7-9333-72426c40e7ef",
+            "createdAt": 1594793618613,
+            "updatedAt": 1594793618613,
+            "createdBy": "D22549AA57EA45587F000101@AdobeID",
+            "updatedBy": "D22549AA57EA45587F000101@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "TMO-Dataload",
+            "description": "TMO-Dataload",
+            "connectionSpec": {
+                "id": "ecadc60c-7455-4d87-84dc-2a0e293d997b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "bucketName": "redshift-filtered-data",
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIAJ3Q6XWS7OSUCVZ3A"
+                }
+            },
+            "version": "\"1200481e-0000-0200-0000-5f0e9e960000\"",
+            "etag": "\"1200481e-0000-0200-0000-5f0e9e960000\""
+        },
+        {
+            "id": "372abe90-16a9-44de-aabe-9016a9e4de57",
+            "createdAt": 1591375705695,
+            "updatedAt": 1591375705695,
+            "createdBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "updatedBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "S3-AKIAJ3Q6XWS7OSUCVZ3A",
+            "description": "Adobe Campaign is a set of solutions that help you personalize and deliver campaigns across all your online and offline channels.",
+            "connectionSpec": {
+                "id": "0b23e41a-cb4a-4321-a78f-3b654f5d7d97",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "S3",
+                "params": {
+                    "accessId": "AKIAJ3Q6XWS7OSUCVZ3A",
+                    "secretKey": "xxxx",
+                    "authorizedDate": "2020-06-05"
+                }
+            },
+            "version": "\"c10123f1-0000-0200-0000-5eda77590000\"",
+            "etag": "\"c10123f1-0000-0200-0000-5eda77590000\""
+        },
+        {
+            "id": "710d6f23-68e7-4f2f-8d6f-2368e7df2f5f",
+            "createdAt": 1591269234249,
+            "updatedAt": 1591269234249,
+            "createdBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "updatedBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "S3-AKIAJ3Q6XWS7OSUCVZ3A",
+            "description": "Adobe Campaign is a set of solutions that help you personalize and deliver campaigns across all your online and offline channels.",
+            "connectionSpec": {
+                "id": "0b23e41a-cb4a-4321-a78f-3b654f5d7d97",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "S3",
+                "params": {
+                    "accessId": "AKIAJ3Q6XWS7OSUCVZ3A",
+                    "secretKey": "xxxx",
+                    "authorizedDate": "2020-06-04"
+                }
+            },
+            "version": "\"9801ae64-0000-0200-0000-5ed8d7720000\"",
+            "etag": "\"9801ae64-0000-0200-0000-5ed8d7720000\""
+        },
+        {
+            "id": "01a66d8a-7681-40c0-a66d-8a768150c038",
+            "createdAt": 1591102616152,
+            "updatedAt": 1591102616152,
+            "createdBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "updatedBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "amazon-s3",
+            "description": "Create a live outbound connection to your AWS S3 buckets to periodically export delimited data files from Experience Platform.",
+            "connectionSpec": {
+                "id": "4890fc95-5a1f-4983-94bb-e060c08e3f81",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIAJ3Q6XWS7OSUCVZ3A",
+                    "authorizedDate": "2020-06-02"
+                }
+            },
+            "version": "\"5e01fb43-0000-0200-0000-5ed64c9a0000\"",
+            "etag": "\"5e01fb43-0000-0200-0000-5ed64c9a0000\"",
+            "providerRefId": ""
+        },
+        {
+            "id": "a3fe18d2-683a-450b-be18-d2683af50b99",
+            "createdAt": 1590956578362,
+            "updatedAt": 1590956578362,
+            "createdBy": "5BC210425D71E0CF0A495CD6@AdobeID",
+            "updatedBy": "5BC210425D71E0CF0A495CD6@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "UPS Base Connection - test",
+            "description": "UPS Base Connection Activation Source - test",
+            "connectionSpec": {
+                "id": "8a9c3494-9708-43d7-ae3f-cda01e5030e1",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"0801791b-0000-0200-0000-5ed412220000\"",
+            "etag": "\"0801791b-0000-0200-0000-5ed412220000\""
+        },
+        {
+            "id": "3a7bde86-d11d-465c-bbde-86d11d765ca6",
+            "createdAt": 1590956538637,
+            "updatedAt": 1590956538637,
+            "createdBy": "5BC210425D71E0CF0A495CD6@AdobeID",
+            "updatedBy": "5BC210425D71E0CF0A495CD6@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "FTP-mydomain.com",
+            "description": "Eloqua is a software as a service (SaaS) platform for marketing automation offered by Oracle that aims to help B2B marketers and organizations manage marketing campaigns and sales lead generation.",
+            "connectionSpec": {
+                "id": "c1e44b6b-e7c8-404b-9031-58f0ef760604",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "SFTP with Password",
+                "params": {
+                    "password": "xxxx",
+                    "port": "test",
+                    "domain": "mydomain.com",
+                    "authorizedDate": "2020-05-31",
+                    "username": "test"
+                }
+            },
+            "version": "\"08010013-0000-0200-0000-5ed411fb0000\"",
+            "etag": "\"08010013-0000-0200-0000-5ed411fb0000\""
+        },
+        {
+            "id": "113c1b66-ce54-44e9-bc1b-66ce5404e9ac",
+            "createdAt": 1590951970428,
+            "updatedAt": 1590951970428,
+            "createdBy": "D22549AA57EA45587F000101@AdobeID",
+            "updatedBy": "D22549AA57EA45587F000101@AdobeID",
+            "createdClient": "acp_ui_platform",
+            "updatedClient": "acp_ui_platform",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "New Datalake connection",
+            "description": "Datalake connection created for flow creation",
+            "connectionSpec": {
+                "id": "c604ff05-7f1a-43c0-8e18-33bf874cb11c",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"0301c861-0000-0200-0000-5ed400260000\"",
+            "etag": "\"0301c861-0000-0200-0000-5ed400260000\"",
+            "providerRefId": ""
+        },
+        {
+            "id": "e6b9ccfc-a629-4985-b9cc-fca62949859c",
+            "createdAt": 1590907964032,
+            "updatedAt": 1590907964032,
+            "createdBy": "DB384B6A5D3E76700A495E55@AdobeID",
+            "updatedBy": "DB384B6A5D3E76700A495E55@AdobeID",
+            "createdClient": "acp_ui_platform",
+            "updatedClient": "acp_ui_platform",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Adobe Analytics",
+            "connectionSpec": {
+                "id": "0f193bd6-a350-4091-bc58-ffae293f6e7b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"dd00b22d-0000-0200-0000-5ed3543c0000\"",
+            "etag": "\"dd00b22d-0000-0200-0000-5ed3543c0000\"",
+            "providerRefId": "adc-provider-connection"
+        },
+        {
+            "id": "5b5d3423-818b-4f65-9d34-23818b0f65a9",
+            "createdAt": 1590749292785,
+            "updatedAt": 1590749292785,
+            "createdBy": "D22549AA57EA45587F000101@AdobeID",
+            "updatedBy": "D22549AA57EA45587F000101@AdobeID",
+            "createdClient": "acp_ui_platform",
+            "updatedClient": "acp_ui_platform",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Priyanka-S3",
+            "description": "Tmobile Profile",
+            "connectionSpec": {
+                "id": "ecadc60c-7455-4d87-84dc-2a0e293d997b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIAJYGZ5CARVQY6UJLA"
+                }
+            },
+            "version": "\"090008c4-0000-0200-0000-5ed0e86e0000\"",
+            "etag": "\"090008c4-0000-0200-0000-5ed0e86e0000\"",
+            "providerRefId": ""
+        },
+        {
+            "id": "7dfcf31d-4322-4006-bcf3-1d4322300676",
+            "createdAt": 1590749010334,
+            "updatedAt": 1590749010334,
+            "createdBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "updatedBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "nagendra.ram",
+            "connectionSpec": {
+                "id": "ecadc60c-7455-4d87-84dc-2a0e293d997b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIAJBLZAR2VE2NYWQ2Q"
+                }
+            },
+            "version": "\"0800019b-0000-0200-0000-5ed0e7540000\"",
+            "etag": "\"0800019b-0000-0200-0000-5ed0e7540000\"",
+            "providerRefId": ""
+        },
+        {
+            "id": "3ba9fb94-3afe-4d8c-a9fb-943afe4d8c09",
+            "createdAt": 1590639055987,
+            "updatedAt": 1590639055987,
+            "createdBy": "344902BD5E84DFE80A495C20@AdobeID",
+            "updatedBy": "344902BD5E84DFE80A495C20@AdobeID",
+            "createdClient": "acp_ui_platform",
+            "updatedClient": "acp_ui_platform",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "vinaysomashekhar",
+            "connectionSpec": {
+                "id": "ecadc60c-7455-4d87-84dc-2a0e293d997b",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "Access Key",
+                "params": {
+                    "s3SecretKey": "xxxx",
+                    "s3AccessKey": "AKIAJPVIFA7DA5MQXNJQ"
+                }
+            },
+            "version": "\"94039f23-0000-0200-0000-5ecf39d10000\"",
+            "etag": "\"94039f23-0000-0200-0000-5ecf39d10000\"",
+            "providerRefId": ""
+        },
+        {
+            "id": "5af9842c-0586-42f5-b984-2c058602f503",
+            "createdAt": 1590578514860,
+            "updatedAt": 1590578514860,
+            "createdBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "updatedBy": "09A53E2359AE8A2F0A495D38@AdobeID",
+            "createdClient": "exc_app",
+            "updatedClient": "exc_app",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "S3-AKIAJLETV4SPFATIWE3A",
+            "description": "Adobe Campaign is a set of solutions that help you personalize and deliver campaigns across all your online and offline channels.",
+            "connectionSpec": {
+                "id": "0b23e41a-cb4a-4321-a78f-3b654f5d7d97",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "auth": {
+                "specName": "S3",
+                "params": {
+                    "accessId": "AKIAJLETV4SPFATIWE3A",
+                    "secretKey": "xxxx",
+                    "authorizedDate": "2020-05-27"
+                }
+            },
+            "version": "\"5a03f187-0000-0200-0000-5ece4d530000\"",
+            "etag": "\"5a03f187-0000-0200-0000-5ece4d530000\""
+        },
+        {
+            "id": "4e2f98ce-cf8c-4cc5-af98-cecf8c9cc509",
+            "createdAt": 1589323063673,
+            "updatedAt": 1589323063673,
+            "createdBy": "88BE5A0E5B6428000A495CDB@AdobeID",
+            "updatedBy": "88BE5A0E5B6428000A495CDB@AdobeID",
+            "createdClient": "acp_ui_platform",
+            "updatedClient": "acp_ui_platform",
+            "sandboxId": "df9227c0-528f-11ea-ba81-6d9d6a305ba2",
+            "sandboxName": "prod",
+            "imsOrgId": "118765E655DEE7427F000101@AdobeOrg",
+            "name": "Adobe Audience Manager",
+            "connectionSpec": {
+                "id": "60da360a-e469-11e9-a359-2a2ae2dbcce4",
+                "version": "1.0"
+            },
+            "state": "enabled",
+            "version": "\"0b003a32-0000-0200-0000-5ebb25370000\"",
+            "etag": "\"0b003a32-0000-0200-0000-5ebb25370000\"",
+            "providerRefId": "7869"
+        }
+    ],
+    "_links": {}
+}

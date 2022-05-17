@@ -1,0 +1,33 @@
+{
+    "metricResponses": [
+        {
+            "metric": "timeseries.ingestion.dataset.batchsuccess.count",
+            "filters": [
+                {
+                    "name": "dataSetId",
+                    "value": "61bc36f20d2bab19486634f6",
+                    "groupBy": true
+                }
+            ],
+            "datapoints": [
+                {
+                    "groupBy": {
+                        "dataSetId": "61bc36f20d2bab19486634f6"
+                    },
+                    "dps": {
+                        "2022-04-28T00:00:00Z": 5.0,
+                        "2022-04-20T00:00:00Z": 6.0,
+                        "2022-04-21T00:00:00Z": 21.0,
+                        "2022-04-22T00:00:00Z": 80.0,
+                        "2022-04-25T00:00:00Z": 0.0,
+                        "2022-04-26T00:00:00Z": 10.0,
+                        "2022-04-27T00:00:00Z": 0.0,
+                        "2022-04-23T00:00:00Z": 0.0,
+                        "2022-04-24T00:00:00Z": 0.0
+                    }
+                }
+            ],
+            "granularity": "DAY"
+        }
+    ]
+}

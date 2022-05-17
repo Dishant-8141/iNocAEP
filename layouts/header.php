@@ -1,56 +1,58 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <head>
-    <!-- Required meta tags -->
+    <?php
+        session_start();
+        $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        // echo $actual_link;exit;
+        // session_destroy();
+        $logged_in = true;
+        
+        if(isset($_SESSION)){
+            if (!empty($_SESSION)) {
+            if ($_SESSION['logged_in'] == false || !isset($_SESSION['user'])) {
+                $logged_in = false;
+            }
+            }else{
+            $logged_in = false;
+            }
+        }else{
+            $logged_in = false;
+        }
+
+        if ($logged_in == false) {
+            // echo "<script> location.href='$actual_link"."login/'; </script>";
+            header("location: ../login/");
+            exit;
+        }
+        
+    ?>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>GAAC</title>
-    <!-- plugins:css -->
-    <link rel="stylesheet" href="dashboard/dashboard.css">
-    <!-- <link rel="stylesheet" href="chart/chart.css"> -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
-            
-    
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
-    <!-- endinject
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
-    <!-- inject:css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iNocAEP</title>
 
-    <link rel="stylesheet" href="node_modules/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="node_modules/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="node_modules/flag-icon-css/css/flag-icon.min.css">
-    <!-- endinject -->
-    <!-- inject:css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- endinject -->
-    <link rel="stylesheet" href="assets/css/custom.css">
-
-
-
-    <link rel="stylesheet" href="assets/ism/css/my-slider.css"/>
-    <style>
-      body{
-        font-size: 1.2rem;
-      }
-
-      .select-status {
-        /* height: calc(2.25rem + 2px); */
-        height: 35px !important;
-      }
-    
-    </style>
-    <script src="assets/ism/js/ism-2.2.min.js"></script>
-
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script> -->
-
-    <script src="dashboard/dashboard.js"></script>
-
-
-  </head>  
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../assets/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="../assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="../assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="../assets/plugins/jqvmap/jqvmap.min.css">
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="../assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+    <!-- Toastr -->
+    <link rel="stylesheet" href="../assets/plugins/toastr/toastr.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../assets/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="../assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="../assets/plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="../assets/plugins/summernote/summernote-bs4.min.css">
 </head>
