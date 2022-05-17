@@ -1,33 +1,59 @@
-<!-- /.container-fluid -->
-<footer class="footer">
-          <div class="container-fluid clearfix">
-            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright &copy; 2018 GAAC. All rights reserved.</span>
-          </div>
-        </footer>
-    </div>
+    <footer class="main-footer">
+        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+        All rights reserved.
+        <div class="float-right d-none d-sm-inline-block">
+            <b>Version</b> 3.2.0
+        </div>
+    </footer>
 
-  </div> 
-</div>  
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
 
-    <!-- /#page-wrapper -->
- 
-  </div>
-
-  </div>
-  <!-- /#wrapper -->
-  
-
-</body>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-
+<!-- jQuery -->
+<script src="../assets/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
-$('ul#menu-main .sub-menu').hide();
-$('ul#menu-main li a').click(function(e) {
-  if ($(this).next('ul.sub-menu').children().length !== 0) {
-      e.preventDefault();
-  }
-  $(this).siblings('.sub-menu').slideToggle('slow');
-});
+    $.widget.bridge('uibutton', $.ui.button)
 </script>
+<!-- Bootstrap 4 -->
+<script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="../assets/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="../assets/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="../assets/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="../assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="../assets/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="../assets/plugins/moment/moment.min.js"></script>
+<script src="../assets/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="../assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="../assets/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="../assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- Bootstrap Switch -->
+<script src="../assets/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+<!-- SweetAlert2 -->
+<script src="../assets/plugins/sweetalert2/sweetalert2.min.js"></script>
+        <!-- Toastr -->
+        <script src="../assets/plugins/toastr/toastr.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../assets/dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../assets/dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="../assets/dist/js/pages/dashboard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+</body>
 </html>

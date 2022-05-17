@@ -1020,6 +1020,18 @@ if(!empty($_GET)){
         //==================Bar chart for metrics================
         if($_GET['type'] == 'bar_chart_metrics'){
             if (!empty($_POST)) {
+                $headers = getallheaders();
+                if(!isset($headers['x-sandbox-name'])){
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 400,
+                        'message'=> 'Sandbox name is required.',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                $req_headers = headersParameter($headers);
+                $req_headers[count($req_headers)] = 'x-sandbox-name: '.' '.$headers['x-sandbox-name'];
                 if(!isset($_POST['status_type'])){
                     $error = array(
                         'status'=> false,
@@ -1057,14 +1069,73 @@ if(!empty($_GET)){
                     exit;
                 }
                 
-                $status_type = $_POST['status_type'];
-                $from_date = $_POST['from_date'];
-                $to_date = $_POST['to_date'];
-                $dataset_id = $_POST['dataset_id'];
+                $status_type = ($_POST['status_type'] == 'batchcount') ? 'timeseries.ingestion.dataset.batchsuccess.count' : null;
+                $from_date = $_POST['from_date'].':00.000Z';
+                $to_date = $_POST['to_date'].':00.000Z';
+                
+                // $result_data = file_get_contents("../log_content/flow_content.txt");
+                // $result_data = file_get_contents("observabilitymetrics-batchsuccesscount.json");
 
-                $result_data = file_get_contents("../log_content/flow_content.txt");
-                $result_data = file_get_contents("observabilitymetrics-batchsuccesscount.json");
-                if(!isset($result_data)){
+                $body_data = '{
+                            "start": "'.$from_date.'",
+                            "end": "'.$to_date.'",
+                            "granularity": "day",
+                            "metrics": [
+                                {
+                                    "name": "'.$status_type.'",
+                                    "filters": [
+                                        {
+                                            "name": "dataSetId",
+                                            "value": "'.$_POST['dataset_id'].'",
+                                            "groupBy": true,
+                                            "orderBy": true
+                                        }
+                                    ],
+                                    "aggregator": "sum",
+                                    "downsample": "sum"
+                                }
+                            ]
+                        }';
+
+                // var_dump($body_data);exit;
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, 'https://platform.adobe.io/data/infrastructure/observability/insights/metrics');
+                curl_setopt($ch, CURLOPT_HTTPHEADER, $req_headers);
+                curl_setopt($ch, CURLOPT_POST, 1);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $body_data);
+        
+                // Receive server response ...
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+                $server_output = curl_exec($ch);
+                if(!$server_output){
+                    $error = array(
+                        'status'=> false,
+                        'code'=> 400,
+                        'message'=> 'Something went wrong on server side, Connection Failure.',
+                    );
+                    echo json_encode($error);
+                    exit;
+                }
+                            
+                curl_close ($ch);
+    
+                $data = json_decode($server_output);
+        
+                // print_r($data);exit;
+                if(isset($data->status)){
+                    if($data->status != 200){
+                        $error = array(
+                            'status'=> false,
+                            'code'=> $data->status,
+                            'message' =>'Something went wrong on server side.',
+                            'data'=> $data,
+                        );
+                        echo json_encode($error);
+                        exit;
+                    }
+                }
+                if(!isset($data)){
                     $error = array(
                         'status'=> false,
                         'code'=> 200,
@@ -1073,9 +1144,10 @@ if(!empty($_GET)){
                     echo json_encode($error);
                     exit;
                 }
-                
-                $result_data = json_decode($result_data);
-                if(isset($result_data)){
+
+                $result_data = $data;
+                // print_r($result_data);exit;
+                if(!isset($result_data->error) && !isset($result_data->errorMessage) && !isset($result_data->error_code) && !isset($result_data->errorDetails) && !isset($result_data->errors)){
                     if (isset($result_data->metricResponses)) {
                         if (count($result_data->metricResponses) > 0) {
                             $year_array = array();
@@ -1105,6 +1177,15 @@ if(!empty($_GET)){
 
                                         array_push($year_value, $obj_array);
                                     }
+                                }else{
+                                    $error = array(
+                                        'status'=> false,
+                                        'code'=> 200,
+                                        'message'=> 'Dataset id is invalid.',
+                                        'data'=> $result_data,
+                                    );
+                                    echo json_encode($error);
+                                    exit;
                                 }
                             }
                             
@@ -1120,7 +1201,7 @@ if(!empty($_GET)){
                             $error = array(
                                 'status'=> false,
                                 'code'=> 200,
-                                'message'=> 'Metric is not available',
+                                'message'=> 'Dataset id is invalid.',
                                 'data'=> $result_data,
                             );
                             echo json_encode($error);
@@ -1140,8 +1221,8 @@ if(!empty($_GET)){
                     $error = array(
                         'status'=> false,
                         'code'=> 200,
-                        'message'=> 'Something went wrong on server side',
-                        'data'=> $result_data,
+                        'message'=> 'Data is not available.',
+                        'data'=> $data,
                     );
                     echo json_encode($error);
                     exit;
@@ -1150,13 +1231,19 @@ if(!empty($_GET)){
                 $error = array(
                     'status'=> false,
                     'code'=> 200,
-                    'message'=> 'Data is empty',
+                    'message'=> 'Data is empty.',
                 );
                 echo json_encode($error);
                 exit;
             }            
 	    }
 
+        //=================Logout===================
+        if($_GET['type'] == 'logout'){
+            session_destroy();
+            header("location: ../login/");
+            exit;
+        }
     }else{
         $error = array(
             'status'=> FALSE,
